@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\KaraokeApp.csproj": {}
+    "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\KaraokeApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\KaraokeApp.csproj": {
+    "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\KaraokeApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\KaraokeApp.csproj",
+        "projectUniqueName": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\KaraokeApp.csproj",
         "projectName": "KaraokeApp",
-        "projectPath": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\KaraokeApp.csproj",
-        "packagesPath": "C:\\Users\\Mariella Prado\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\",
+        "projectPath": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\KaraokeApp.csproj",
+        "packagesPath": "C:\\Users\\Angelo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mariella Prado\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Angelo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -78,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

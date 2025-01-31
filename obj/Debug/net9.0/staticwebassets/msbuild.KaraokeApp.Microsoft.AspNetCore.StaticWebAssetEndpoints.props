@@ -4,145 +4,145 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"b9sayid5wm"},{"Name":"integrity","Value":"sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="},{"Name":"label","Value":"_content/KaraokeApp/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"667"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jan 2025 20:59:50 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"667"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 31 Jan 2025 15:06:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KaraokeApp/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"667"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jan 2025 20:59:50 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"667"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 31 Jan 2025 15:06:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KaraokeApp/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"61n19gt1b8"},{"Name":"integrity","Value":"sha256-Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="},{"Name":"label","Value":"_content/KaraokeApp/favicon.ico"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5430"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jan 2025 20:59:50 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5430"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\u0022"},{"Name":"Last-Modified","Value":"Fri, 31 Jan 2025 15:06:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KaraokeApp/favicon.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5430"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jan 2025 20:59:50 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5430"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\u0022"},{"Name":"Last-Modified","Value":"Fri, 31 Jan 2025 15:06:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KaraokeApp/image/AwitifyIcon.l7mdq8q2ga.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\image\AwitifyIcon.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"l7mdq8q2ga"},{"Name":"integrity","Value":"sha256-T7TaTXV2Jiu\u002BtFBXrXRD2BQ0XT1HePfLqRmanX6xVmw="},{"Name":"label","Value":"_content/KaraokeApp/image/AwitifyIcon.png"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"28342"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022T7TaTXV2Jiu\u002BtFBXrXRD2BQ0XT1HePfLqRmanX6xVmw=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jan 2025 20:59:50 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"28342"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022T7TaTXV2Jiu\u002BtFBXrXRD2BQ0XT1HePfLqRmanX6xVmw=\u0022"},{"Name":"Last-Modified","Value":"Fri, 31 Jan 2025 15:06:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KaraokeApp/image/AwitifyIcon.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\image\AwitifyIcon.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-T7TaTXV2Jiu\u002BtFBXrXRD2BQ0XT1HePfLqRmanX6xVmw="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"28342"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022T7TaTXV2Jiu\u002BtFBXrXRD2BQ0XT1HePfLqRmanX6xVmw=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jan 2025 20:59:50 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"28342"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022T7TaTXV2Jiu\u002BtFBXrXRD2BQ0XT1HePfLqRmanX6xVmw=\u0022"},{"Name":"Last-Modified","Value":"Fri, 31 Jan 2025 15:06:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KaraokeApp/image/AwitifyLogo.eee47nbeo6.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\image\AwitifyLogo.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"eee47nbeo6"},{"Name":"integrity","Value":"sha256-Gou3GkCW0RzCDi9WX0cJmcurwmCWEzI\u002BxAEYn4crtQE="},{"Name":"label","Value":"_content/KaraokeApp/image/AwitifyLogo.png"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"548763"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Gou3GkCW0RzCDi9WX0cJmcurwmCWEzI\u002BxAEYn4crtQE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jan 2025 20:59:50 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"548763"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Gou3GkCW0RzCDi9WX0cJmcurwmCWEzI\u002BxAEYn4crtQE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 31 Jan 2025 15:06:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KaraokeApp/image/AwitifyLogo.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\image\AwitifyLogo.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Gou3GkCW0RzCDi9WX0cJmcurwmCWEzI\u002BxAEYn4crtQE="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"548763"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Gou3GkCW0RzCDi9WX0cJmcurwmCWEzI\u002BxAEYn4crtQE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jan 2025 20:59:50 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"548763"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Gou3GkCW0RzCDi9WX0cJmcurwmCWEzI\u002BxAEYn4crtQE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 31 Jan 2025 15:06:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KaraokeApp/image/Header.c32m1t8apc.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\image\Header.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"c32m1t8apc"},{"Name":"integrity","Value":"sha256-GOkNhDESlaFht9fng5DhAG/9z7LULfU/6vpxL9q2EL0="},{"Name":"label","Value":"_content/KaraokeApp/image/Header.png"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"20600"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022GOkNhDESlaFht9fng5DhAG/9z7LULfU/6vpxL9q2EL0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jan 2025 20:59:50 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"20600"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022GOkNhDESlaFht9fng5DhAG/9z7LULfU/6vpxL9q2EL0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 31 Jan 2025 15:06:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KaraokeApp/image/Header.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\image\Header.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-GOkNhDESlaFht9fng5DhAG/9z7LULfU/6vpxL9q2EL0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"20600"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022GOkNhDESlaFht9fng5DhAG/9z7LULfU/6vpxL9q2EL0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jan 2025 20:59:50 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"20600"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022GOkNhDESlaFht9fng5DhAG/9z7LULfU/6vpxL9q2EL0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 31 Jan 2025 15:06:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KaraokeApp/image/LandingPage.fxry9gx2sv.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\image\LandingPage.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fxry9gx2sv"},{"Name":"integrity","Value":"sha256-HcUAYEbdhQuKMqCg/hb3pTvTnyt2is1t3k\u002B\u002BC7TJg4Y="},{"Name":"label","Value":"_content/KaraokeApp/image/LandingPage.png"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"361791"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022HcUAYEbdhQuKMqCg/hb3pTvTnyt2is1t3k\u002B\u002BC7TJg4Y=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jan 2025 20:59:50 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"361791"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022HcUAYEbdhQuKMqCg/hb3pTvTnyt2is1t3k\u002B\u002BC7TJg4Y=\u0022"},{"Name":"Last-Modified","Value":"Fri, 31 Jan 2025 15:06:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KaraokeApp/image/LandingPage.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\image\LandingPage.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-HcUAYEbdhQuKMqCg/hb3pTvTnyt2is1t3k\u002B\u002BC7TJg4Y="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"361791"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022HcUAYEbdhQuKMqCg/hb3pTvTnyt2is1t3k\u002B\u002BC7TJg4Y=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jan 2025 20:59:50 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"361791"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022HcUAYEbdhQuKMqCg/hb3pTvTnyt2is1t3k\u002B\u002BC7TJg4Y=\u0022"},{"Name":"Last-Modified","Value":"Fri, 31 Jan 2025 15:06:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KaraokeApp/image/LoginLogo.iqugehfrtx.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\image\LoginLogo.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"iqugehfrtx"},{"Name":"integrity","Value":"sha256-Zp6UTXbKyF\u002BDSkjsP8w18S/QV5KKX79/CeZ4xoGRXDU="},{"Name":"label","Value":"_content/KaraokeApp/image/LoginLogo.png"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"338862"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Zp6UTXbKyF\u002BDSkjsP8w18S/QV5KKX79/CeZ4xoGRXDU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jan 2025 20:59:50 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"338862"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Zp6UTXbKyF\u002BDSkjsP8w18S/QV5KKX79/CeZ4xoGRXDU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 31 Jan 2025 15:06:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KaraokeApp/image/LoginLogo.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\image\LoginLogo.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Zp6UTXbKyF\u002BDSkjsP8w18S/QV5KKX79/CeZ4xoGRXDU="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"338862"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Zp6UTXbKyF\u002BDSkjsP8w18S/QV5KKX79/CeZ4xoGRXDU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jan 2025 20:59:50 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"338862"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Zp6UTXbKyF\u002BDSkjsP8w18S/QV5KKX79/CeZ4xoGRXDU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 31 Jan 2025 15:06:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KaraokeApp/image/LoginPage.8cyuf8aaeq.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\image\LoginPage.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8cyuf8aaeq"},{"Name":"integrity","Value":"sha256-WLhGUYvNHvMViUAM6yWpeQwSiwj6zq9kvBLXlAzDW/U="},{"Name":"label","Value":"_content/KaraokeApp/image/LoginPage.png"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"254043"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022WLhGUYvNHvMViUAM6yWpeQwSiwj6zq9kvBLXlAzDW/U=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jan 2025 20:59:50 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"254043"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022WLhGUYvNHvMViUAM6yWpeQwSiwj6zq9kvBLXlAzDW/U=\u0022"},{"Name":"Last-Modified","Value":"Fri, 31 Jan 2025 15:06:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KaraokeApp/image/LoginPage.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\image\LoginPage.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-WLhGUYvNHvMViUAM6yWpeQwSiwj6zq9kvBLXlAzDW/U="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"254043"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022WLhGUYvNHvMViUAM6yWpeQwSiwj6zq9kvBLXlAzDW/U=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jan 2025 20:59:50 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"254043"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022WLhGUYvNHvMViUAM6yWpeQwSiwj6zq9kvBLXlAzDW/U=\u0022"},{"Name":"Last-Modified","Value":"Fri, 31 Jan 2025 15:06:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KaraokeApp/image/RegisterLogo.f87ltobv4a.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\image\RegisterLogo.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"f87ltobv4a"},{"Name":"integrity","Value":"sha256-Idt\u002B\u002BNh88pzOzg\u002BaQogYFWeuiWT2o3vQGUJl98djVfg="},{"Name":"label","Value":"_content/KaraokeApp/image/RegisterLogo.png"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"472231"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Idt\u002B\u002BNh88pzOzg\u002BaQogYFWeuiWT2o3vQGUJl98djVfg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jan 2025 20:59:50 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"472231"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Idt\u002B\u002BNh88pzOzg\u002BaQogYFWeuiWT2o3vQGUJl98djVfg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 31 Jan 2025 15:06:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KaraokeApp/image/RegisterLogo.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\image\RegisterLogo.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Idt\u002B\u002BNh88pzOzg\u002BaQogYFWeuiWT2o3vQGUJl98djVfg="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"472231"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Idt\u002B\u002BNh88pzOzg\u002BaQogYFWeuiWT2o3vQGUJl98djVfg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jan 2025 20:59:50 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"472231"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Idt\u002B\u002BNh88pzOzg\u002BaQogYFWeuiWT2o3vQGUJl98djVfg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 31 Jan 2025 15:06:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KaraokeApp/image/RegisterPage.1lsebyszuk.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\image\RegisterPage.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1lsebyszuk"},{"Name":"integrity","Value":"sha256-y0Srp64GO1DaOvvLkzisG1hUk5AuyL3aMF7rJnZVfqI="},{"Name":"label","Value":"_content/KaraokeApp/image/RegisterPage.png"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"254300"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022y0Srp64GO1DaOvvLkzisG1hUk5AuyL3aMF7rJnZVfqI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jan 2025 20:59:50 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"254300"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022y0Srp64GO1DaOvvLkzisG1hUk5AuyL3aMF7rJnZVfqI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 31 Jan 2025 15:06:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KaraokeApp/image/RegisterPage.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\image\RegisterPage.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-y0Srp64GO1DaOvvLkzisG1hUk5AuyL3aMF7rJnZVfqI="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"254300"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022y0Srp64GO1DaOvvLkzisG1hUk5AuyL3aMF7rJnZVfqI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jan 2025 20:59:50 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"254300"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022y0Srp64GO1DaOvvLkzisG1hUk5AuyL3aMF7rJnZVfqI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 31 Jan 2025 15:06:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KaraokeApp/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"231"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jan 2025 20:59:51 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"231"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\u0022"},{"Name":"Last-Modified","Value":"Fri, 31 Jan 2025 15:06:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KaraokeApp/js/site.xtxxf3hu2r.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xtxxf3hu2r"},{"Name":"integrity","Value":"sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="},{"Name":"label","Value":"_content/KaraokeApp/js/site.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"231"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jan 2025 20:59:51 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"231"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\u0022"},{"Name":"Last-Modified","Value":"Fri, 31 Jan 2025 15:06:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KaraokeApp/KaraokeApp.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\KaraokeApp.sbp3dbxltu.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-\u002BCuW/WTImYUCMpRzMZKwyY62opFT1OII4mr2rSJfXIE="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1332"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022\u002BCuW/WTImYUCMpRzMZKwyY62opFT1OII4mr2rSJfXIE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 28 Jan 2025 10:40:00 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1332"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022\u002BCuW/WTImYUCMpRzMZKwyY62opFT1OII4mr2rSJfXIE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 31 Jan 2025 15:06:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KaraokeApp/KaraokeApp.sbp3dbxltu.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\KaraokeApp.sbp3dbxltu.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"sbp3dbxltu"},{"Name":"integrity","Value":"sha256-\u002BCuW/WTImYUCMpRzMZKwyY62opFT1OII4mr2rSJfXIE="},{"Name":"label","Value":"_content/KaraokeApp/KaraokeApp.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1332"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022\u002BCuW/WTImYUCMpRzMZKwyY62opFT1OII4mr2rSJfXIE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 28 Jan 2025 10:40:00 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1332"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022\u002BCuW/WTImYUCMpRzMZKwyY62opFT1OII4mr2rSJfXIE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 31 Jan 2025 15:06:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

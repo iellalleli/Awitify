@@ -65,5 +65,12 @@ namespace KaraokeApp.Controllers
             HttpContext.Session.SetInt32("UserId", user.Id);
             return RedirectToAction("HomePage", "Home");
         }
+
+        [HttpPost]
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Clear();
+            return RedirectToAction("Login");
+        }
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Df2RVTCCW4G35ABmDhn/SWIt2RIwk5lY5jhFpcbiWS4=",
+  "Hash": "qiYzA58EBz7ENu8QL/tF1XgWCQFZTrijoLEJn+SjN0o=",
   "Source": "KaraokeApp",
   "BasePath": "_content/KaraokeApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "KaraokeApp\\wwwroot",
       "Source": "KaraokeApp",
-      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\",
       "BasePath": "_content/KaraokeApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\uekzt3cqwj-sbp3dbxltu.gz",
+      "Identity": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\compressed\\uekzt3cqwj-sbp3dbxltu.gz",
       "SourceId": "KaraokeApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/KaraokeApp",
       "RelativePath": "KaraokeApp#[.{fingerprint=sbp3dbxltu}]!.bundle.scp.css.gz",
       "AssetKind": "All",
@@ -28,20 +28,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\KaraokeApp.bundle.scp.css",
+      "RelatedAsset": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\KaraokeApp.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "f2yp5t8bgn",
       "Integrity": "t3GopoO+TU8e75U9pIFd7i0hgorjGCKvdXDubn4MKaw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\KaraokeApp.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\KaraokeApp.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\vq2nrul6kt-sbp3dbxltu.gz",
+      "Identity": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\compressed\\vq2nrul6kt-sbp3dbxltu.gz",
       "SourceId": "KaraokeApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/KaraokeApp",
       "RelativePath": "KaraokeApp#[.{fingerprint=sbp3dbxltu}]?.styles.css.gz",
       "AssetKind": "All",
@@ -49,20 +49,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\scopedcss\\bundle\\KaraokeApp.styles.css",
+      "RelatedAsset": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\scopedcss\\bundle\\KaraokeApp.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "f2yp5t8bgn",
       "Integrity": "t3GopoO+TU8e75U9pIFd7i0hgorjGCKvdXDubn4MKaw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\scopedcss\\bundle\\KaraokeApp.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\scopedcss\\bundle\\KaraokeApp.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\ygmaqczr18-b9sayid5wm.gz",
+      "Identity": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\compressed\\ygmaqczr18-b9sayid5wm.gz",
       "SourceId": "KaraokeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/KaraokeApp",
       "RelativePath": "css/site#[.{fingerprint=b9sayid5wm}]?.css.gz",
       "AssetKind": "All",
@@ -70,20 +70,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\css\\site.css",
+      "RelatedAsset": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "0suozzrugb",
       "Integrity": "0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\css\\site.css"
+      "OriginalItemSpec": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\z2q2kzeqzq-xtxxf3hu2r.gz",
+      "Identity": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\compressed\\z2q2kzeqzq-xtxxf3hu2r.gz",
       "SourceId": "KaraokeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/KaraokeApp",
       "RelativePath": "js/site#[.{fingerprint=xtxxf3hu2r}]?.js.gz",
       "AssetKind": "All",
@@ -91,20 +91,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\js\\site.js",
+      "RelatedAsset": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\js\\site.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "rl5dcbfpcw",
       "Integrity": "Ydq7YvQUzhbo68waLZeQvZnPOvmTeQ+HyDqjkA1whsA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\js\\site.js"
+      "OriginalItemSpec": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\za0d7ieyez-61n19gt1b8.gz",
+      "Identity": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\compressed\\za0d7ieyez-61n19gt1b8.gz",
       "SourceId": "KaraokeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/KaraokeApp",
       "RelativePath": "favicon#[.{fingerprint=61n19gt1b8}]?.ico.gz",
       "AssetKind": "All",
@@ -112,20 +112,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\favicon.ico",
+      "RelatedAsset": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\favicon.ico",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "nezsohjtde",
       "Integrity": "wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\favicon.ico"
+      "OriginalItemSpec": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\scopedcss\\bundle\\KaraokeApp.styles.css",
+      "Identity": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\scopedcss\\bundle\\KaraokeApp.styles.css",
       "SourceId": "KaraokeApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\scopedcss\\bundle\\",
       "BasePath": "_content/KaraokeApp",
       "RelativePath": "KaraokeApp#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -140,13 +140,13 @@
       "Integrity": "+CuW/WTImYUCMpRzMZKwyY62opFT1OII4mr2rSJfXIE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\scopedcss\\bundle\\KaraokeApp.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\scopedcss\\bundle\\KaraokeApp.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\KaraokeApp.bundle.scp.css",
+      "Identity": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\KaraokeApp.bundle.scp.css",
       "SourceId": "KaraokeApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/KaraokeApp",
       "RelativePath": "KaraokeApp#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -161,13 +161,13 @@
       "Integrity": "+CuW/WTImYUCMpRzMZKwyY62opFT1OII4mr2rSJfXIE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\KaraokeApp.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\KaraokeApp.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\css\\site.css",
       "SourceId": "KaraokeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\",
       "BasePath": "_content/KaraokeApp",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\favicon.ico",
       "SourceId": "KaraokeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\",
       "BasePath": "_content/KaraokeApp",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\AwitifyIcon.png",
+      "Identity": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\image\\AwitifyIcon.png",
       "SourceId": "KaraokeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\",
       "BasePath": "_content/KaraokeApp",
       "RelativePath": "image/AwitifyIcon#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\image\\AwitifyIcon.png"
     },
     {
-      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\AwitifyLogo.png",
+      "Identity": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\image\\AwitifyLogo.png",
       "SourceId": "KaraokeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\",
       "BasePath": "_content/KaraokeApp",
       "RelativePath": "image/AwitifyLogo#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -248,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\image\\AwitifyLogo.png"
     },
     {
-      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\Header.png",
+      "Identity": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\image\\Header.png",
       "SourceId": "KaraokeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\",
       "BasePath": "_content/KaraokeApp",
       "RelativePath": "image/Header#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -269,10 +269,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Header.png"
     },
     {
-      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\LandingPage.png",
+      "Identity": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\image\\LandingPage.png",
       "SourceId": "KaraokeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\",
       "BasePath": "_content/KaraokeApp",
       "RelativePath": "image/LandingPage#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -290,10 +290,10 @@
       "OriginalItemSpec": "wwwroot\\image\\LandingPage.png"
     },
     {
-      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\LoginLogo.png",
+      "Identity": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\image\\LoginLogo.png",
       "SourceId": "KaraokeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\",
       "BasePath": "_content/KaraokeApp",
       "RelativePath": "image/LoginLogo#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -311,10 +311,10 @@
       "OriginalItemSpec": "wwwroot\\image\\LoginLogo.png"
     },
     {
-      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\LoginPage.png",
+      "Identity": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\image\\LoginPage.png",
       "SourceId": "KaraokeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\",
       "BasePath": "_content/KaraokeApp",
       "RelativePath": "image/LoginPage#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -332,10 +332,10 @@
       "OriginalItemSpec": "wwwroot\\image\\LoginPage.png"
     },
     {
-      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\RegisterLogo.png",
+      "Identity": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\image\\RegisterLogo.png",
       "SourceId": "KaraokeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\",
       "BasePath": "_content/KaraokeApp",
       "RelativePath": "image/RegisterLogo#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -353,10 +353,10 @@
       "OriginalItemSpec": "wwwroot\\image\\RegisterLogo.png"
     },
     {
-      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\RegisterPage.png",
+      "Identity": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\image\\RegisterPage.png",
       "SourceId": "KaraokeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\",
       "BasePath": "_content/KaraokeApp",
       "RelativePath": "image/RegisterPage#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\image\\RegisterPage.png"
     },
     {
-      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\js\\site.js",
       "SourceId": "KaraokeApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\",
       "BasePath": "_content/KaraokeApp",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -398,7 +398,7 @@
   "Endpoints": [
     {
       "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\ygmaqczr18-b9sayid5wm.gz",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\compressed\\ygmaqczr18-b9sayid5wm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -421,7 +421,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -461,7 +461,7 @@
     },
     {
       "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -482,7 +482,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -506,7 +506,7 @@
     },
     {
       "Route": "css/site.b9sayid5wm.css.gz",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\ygmaqczr18-b9sayid5wm.gz",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\compressed\\ygmaqczr18-b9sayid5wm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -527,7 +527,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -559,7 +559,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\ygmaqczr18-b9sayid5wm.gz",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\compressed\\ygmaqczr18-b9sayid5wm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -582,7 +582,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -614,7 +614,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -635,7 +635,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -651,7 +651,7 @@
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\ygmaqczr18-b9sayid5wm.gz",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\compressed\\ygmaqczr18-b9sayid5wm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -672,7 +672,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -696,7 +696,7 @@
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\za0d7ieyez-61n19gt1b8.gz",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\compressed\\za0d7ieyez-61n19gt1b8.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -719,7 +719,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -759,7 +759,7 @@
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -780,7 +780,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -804,7 +804,7 @@
     },
     {
       "Route": "favicon.61n19gt1b8.ico.gz",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\za0d7ieyez-61n19gt1b8.gz",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\compressed\\za0d7ieyez-61n19gt1b8.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -825,7 +825,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -857,7 +857,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\za0d7ieyez-61n19gt1b8.gz",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\compressed\\za0d7ieyez-61n19gt1b8.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -880,7 +880,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -912,7 +912,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -933,7 +933,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -949,7 +949,7 @@
     },
     {
       "Route": "favicon.ico.gz",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\za0d7ieyez-61n19gt1b8.gz",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\compressed\\za0d7ieyez-61n19gt1b8.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -970,7 +970,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -994,7 +994,7 @@
     },
     {
       "Route": "image/AwitifyIcon.l7mdq8q2ga.png",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\AwitifyIcon.png",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\image\\AwitifyIcon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1015,7 +1015,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1039,7 +1039,7 @@
     },
     {
       "Route": "image/AwitifyIcon.png",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\AwitifyIcon.png",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\image\\AwitifyIcon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1060,7 +1060,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1076,7 +1076,7 @@
     },
     {
       "Route": "image/AwitifyLogo.eee47nbeo6.png",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\AwitifyLogo.png",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\image\\AwitifyLogo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1097,7 +1097,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1121,7 +1121,7 @@
     },
     {
       "Route": "image/AwitifyLogo.png",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\AwitifyLogo.png",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\image\\AwitifyLogo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1142,7 +1142,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1158,7 +1158,7 @@
     },
     {
       "Route": "image/Header.c32m1t8apc.png",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\Header.png",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\image\\Header.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1179,7 +1179,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1203,7 +1203,7 @@
     },
     {
       "Route": "image/Header.png",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\Header.png",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\image\\Header.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1224,7 +1224,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1240,7 +1240,7 @@
     },
     {
       "Route": "image/LandingPage.fxry9gx2sv.png",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\LandingPage.png",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\image\\LandingPage.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1261,7 +1261,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1285,7 +1285,7 @@
     },
     {
       "Route": "image/LandingPage.png",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\LandingPage.png",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\image\\LandingPage.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1306,7 +1306,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1322,7 +1322,7 @@
     },
     {
       "Route": "image/LoginLogo.iqugehfrtx.png",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\LoginLogo.png",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\image\\LoginLogo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1343,7 +1343,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1367,7 +1367,7 @@
     },
     {
       "Route": "image/LoginLogo.png",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\LoginLogo.png",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\image\\LoginLogo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1388,7 +1388,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1404,7 +1404,7 @@
     },
     {
       "Route": "image/LoginPage.8cyuf8aaeq.png",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\LoginPage.png",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\image\\LoginPage.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1425,7 +1425,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1449,7 +1449,7 @@
     },
     {
       "Route": "image/LoginPage.png",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\LoginPage.png",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\image\\LoginPage.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1470,7 +1470,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1486,7 +1486,7 @@
     },
     {
       "Route": "image/RegisterLogo.f87ltobv4a.png",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\RegisterLogo.png",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\image\\RegisterLogo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1507,7 +1507,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1531,7 +1531,7 @@
     },
     {
       "Route": "image/RegisterLogo.png",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\RegisterLogo.png",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\image\\RegisterLogo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1552,7 +1552,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1568,7 +1568,7 @@
     },
     {
       "Route": "image/RegisterPage.1lsebyszuk.png",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\RegisterPage.png",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\image\\RegisterPage.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1589,7 +1589,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1613,7 +1613,7 @@
     },
     {
       "Route": "image/RegisterPage.png",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\RegisterPage.png",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\image\\RegisterPage.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1634,7 +1634,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1650,7 +1650,7 @@
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\z2q2kzeqzq-xtxxf3hu2r.gz",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\compressed\\z2q2kzeqzq-xtxxf3hu2r.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1673,7 +1673,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 20:59:51 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1705,7 +1705,7 @@
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1726,7 +1726,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 20:59:51 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1742,7 +1742,7 @@
     },
     {
       "Route": "js/site.js.gz",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\z2q2kzeqzq-xtxxf3hu2r.gz",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\compressed\\z2q2kzeqzq-xtxxf3hu2r.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1763,7 +1763,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 20:59:51 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1787,7 +1787,7 @@
     },
     {
       "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\z2q2kzeqzq-xtxxf3hu2r.gz",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\compressed\\z2q2kzeqzq-xtxxf3hu2r.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1810,7 +1810,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 20:59:51 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1850,7 +1850,7 @@
     },
     {
       "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1871,7 +1871,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 20:59:51 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1895,7 +1895,7 @@
     },
     {
       "Route": "js/site.xtxxf3hu2r.js.gz",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\z2q2kzeqzq-xtxxf3hu2r.gz",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\compressed\\z2q2kzeqzq-xtxxf3hu2r.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1916,7 +1916,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 20:59:51 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1948,7 +1948,7 @@
     },
     {
       "Route": "KaraokeApp.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\uekzt3cqwj-sbp3dbxltu.gz",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\compressed\\uekzt3cqwj-sbp3dbxltu.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1971,7 +1971,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 10:40:00 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2003,7 +2003,7 @@
     },
     {
       "Route": "KaraokeApp.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\KaraokeApp.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\KaraokeApp.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2024,7 +2024,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 10:40:00 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2040,7 +2040,7 @@
     },
     {
       "Route": "KaraokeApp.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\uekzt3cqwj-sbp3dbxltu.gz",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\compressed\\uekzt3cqwj-sbp3dbxltu.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2061,7 +2061,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 10:40:00 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2085,7 +2085,7 @@
     },
     {
       "Route": "KaraokeApp.sbp3dbxltu.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\uekzt3cqwj-sbp3dbxltu.gz",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\compressed\\uekzt3cqwj-sbp3dbxltu.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2108,7 +2108,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 10:40:00 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2148,7 +2148,7 @@
     },
     {
       "Route": "KaraokeApp.sbp3dbxltu.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\KaraokeApp.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\KaraokeApp.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2169,7 +2169,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 10:40:00 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2193,7 +2193,7 @@
     },
     {
       "Route": "KaraokeApp.sbp3dbxltu.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\uekzt3cqwj-sbp3dbxltu.gz",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\compressed\\uekzt3cqwj-sbp3dbxltu.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2214,7 +2214,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 10:40:00 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2246,7 +2246,7 @@
     },
     {
       "Route": "KaraokeApp.sbp3dbxltu.styles.css",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\vq2nrul6kt-sbp3dbxltu.gz",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\compressed\\vq2nrul6kt-sbp3dbxltu.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2269,7 +2269,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 10:40:00 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2309,7 +2309,7 @@
     },
     {
       "Route": "KaraokeApp.sbp3dbxltu.styles.css",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\scopedcss\\bundle\\KaraokeApp.styles.css",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\scopedcss\\bundle\\KaraokeApp.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2330,7 +2330,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 10:40:00 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2354,7 +2354,7 @@
     },
     {
       "Route": "KaraokeApp.sbp3dbxltu.styles.css.gz",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\vq2nrul6kt-sbp3dbxltu.gz",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\compressed\\vq2nrul6kt-sbp3dbxltu.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2375,7 +2375,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 10:40:00 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2407,7 +2407,7 @@
     },
     {
       "Route": "KaraokeApp.styles.css",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\vq2nrul6kt-sbp3dbxltu.gz",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\compressed\\vq2nrul6kt-sbp3dbxltu.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2430,7 +2430,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 10:40:00 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2462,7 +2462,7 @@
     },
     {
       "Route": "KaraokeApp.styles.css",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\scopedcss\\bundle\\KaraokeApp.styles.css",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\scopedcss\\bundle\\KaraokeApp.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2483,7 +2483,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 10:40:00 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2499,7 +2499,7 @@
     },
     {
       "Route": "KaraokeApp.styles.css.gz",
-      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\vq2nrul6kt-sbp3dbxltu.gz",
+      "AssetFile": "C:\\Users\\Angelo\\Documents\\CS 3rd Year Files\\Academics\\Application Development and Emerging Technologies\\New Repo\\Awitify\\obj\\Debug\\net9.0\\compressed\\vq2nrul6kt-sbp3dbxltu.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2520,7 +2520,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 10:40:00 GMT"
+          "Value": "Fri, 31 Jan 2025 15:06:11 GMT"
         },
         {
           "Name": "Cache-Control",

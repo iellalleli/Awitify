@@ -17,81 +17,81 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = KaraokeApp
 build_property.RootNamespace = KaraokeApp
-build_property.ProjectDir = C:\Users\Mariella Prado\OneDrive\Documents\Visual Studio 2022\C#\Awitify-main\
+build_property.ProjectDir = C:\Users\Angelo\Documents\CS 3rd Year Files\Academics\Application Development and Emerging Technologies\New Repo\Awitify\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Mariella Prado\OneDrive\Documents\Visual Studio 2022\C#\Awitify-main
+build_property.MSBuildProjectDirectory = C:\Users\Angelo\Documents\CS 3rd Year Files\Academics\Application Development and Emerging Technologies\New Repo\Awitify
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Mariella Prado/OneDrive/Documents/Visual Studio 2022/C\#/Awitify-main/Views/Account/Login.cshtml]
+[C:/Users/Angelo/Documents/CS 3rd Year Files/Academics/Application Development and Emerging Technologies/New Repo/Awitify/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mariella Prado/OneDrive/Documents/Visual Studio 2022/C\#/Awitify-main/Views/Account/SignUp.cshtml]
+[C:/Users/Angelo/Documents/CS 3rd Year Files/Academics/Application Development and Emerging Technologies/New Repo/Awitify/Views/Account/SignUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWduVXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mariella Prado/OneDrive/Documents/Visual Studio 2022/C\#/Awitify-main/Views/Home/HomePage.cshtml]
+[C:/Users/Angelo/Documents/CS 3rd Year Files/Academics/Application Development and Emerging Technologies/New Repo/Awitify/Views/Home/HomePage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lUGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mariella Prado/OneDrive/Documents/Visual Studio 2022/C\#/Awitify-main/Views/Home/Play.cshtml]
+[C:/Users/Angelo/Documents/CS 3rd Year Files/Academics/Application Development and Emerging Technologies/New Repo/Awitify/Views/Home/Play.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQbGF5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mariella Prado/OneDrive/Documents/Visual Studio 2022/C\#/Awitify-main/Views/Home/Privacy.cshtml]
+[C:/Users/Angelo/Documents/CS 3rd Year Files/Academics/Application Development and Emerging Technologies/New Repo/Awitify/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mariella Prado/OneDrive/Documents/Visual Studio 2022/C\#/Awitify-main/Views/Home/QueuePartial.cshtml]
+[C:/Users/Angelo/Documents/CS 3rd Year Files/Academics/Application Development and Emerging Technologies/New Repo/Awitify/Views/Home/QueuePartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxRdWV1ZVBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mariella Prado/OneDrive/Documents/Visual Studio 2022/C\#/Awitify-main/Views/Home/Search.cshtml]
+[C:/Users/Angelo/Documents/CS 3rd Year Files/Academics/Application Development and Emerging Technologies/New Repo/Awitify/Views/Home/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWFyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mariella Prado/OneDrive/Documents/Visual Studio 2022/C\#/Awitify-main/Views/Home/SearchResults.cshtml]
+[C:/Users/Angelo/Documents/CS 3rd Year Files/Academics/Application Development and Emerging Technologies/New Repo/Awitify/Views/Home/SearchResults.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWFyY2hSZXN1bHRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mariella Prado/OneDrive/Documents/Visual Studio 2022/C\#/Awitify-main/Views/LandingPage/Home.cshtml]
+[C:/Users/Angelo/Documents/CS 3rd Year Files/Academics/Application Development and Emerging Technologies/New Repo/Awitify/Views/LandingPage/Home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ1BhZ2VcSG9tZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mariella Prado/OneDrive/Documents/Visual Studio 2022/C\#/Awitify-main/Views/Shared/Error.cshtml]
+[C:/Users/Angelo/Documents/CS 3rd Year Files/Academics/Application Development and Emerging Technologies/New Repo/Awitify/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mariella Prado/OneDrive/Documents/Visual Studio 2022/C\#/Awitify-main/Views/Shared/HomeLayout.cshtml]
+[C:/Users/Angelo/Documents/CS 3rd Year Files/Academics/Application Development and Emerging Technologies/New Repo/Awitify/Views/Shared/HomeLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEhvbWVMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mariella Prado/OneDrive/Documents/Visual Studio 2022/C\#/Awitify-main/Views/Shared/_Header.cshtml]
+[C:/Users/Angelo/Documents/CS 3rd Year Files/Academics/Application Development and Emerging Technologies/New Repo/Awitify/Views/Shared/_Header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mariella Prado/OneDrive/Documents/Visual Studio 2022/C\#/Awitify-main/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Angelo/Documents/CS 3rd Year Files/Academics/Application Development and Emerging Technologies/New Repo/Awitify/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mariella Prado/OneDrive/Documents/Visual Studio 2022/C\#/Awitify-main/Views/_ViewImports.cshtml]
+[C:/Users/Angelo/Documents/CS 3rd Year Files/Academics/Application Development and Emerging Technologies/New Repo/Awitify/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mariella Prado/OneDrive/Documents/Visual Studio 2022/C\#/Awitify-main/Views/_ViewStart.cshtml]
+[C:/Users/Angelo/Documents/CS 3rd Year Files/Academics/Application Development and Emerging Technologies/New Repo/Awitify/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mariella Prado/OneDrive/Documents/Visual Studio 2022/C\#/Awitify-main/Views/LandingPage/LandingLayout.cshtml]
+[C:/Users/Angelo/Documents/CS 3rd Year Files/Academics/Application Development and Emerging Technologies/New Repo/Awitify/Views/LandingPage/LandingLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ1BhZ2VcTGFuZGluZ0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-itmdhgg861
 
-[C:/Users/Mariella Prado/OneDrive/Documents/Visual Studio 2022/C\#/Awitify-main/Views/Shared/_Layout.cshtml]
+[C:/Users/Angelo/Documents/CS 3rd Year Files/Academics/Application Development and Emerging Technologies/New Repo/Awitify/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-v08zsojtpc
