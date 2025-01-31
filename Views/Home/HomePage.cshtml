@@ -17,20 +17,27 @@
 @if (ViewBag.Videos == null || ViewBag.Videos.Count == 0)
 {
     <div class="suggestions-container text-center mt-4">
-        <h3>Recommended Karaoke Songs:</h3>
-        <div class="suggestions-box d-flex justify-content-center">
+        <div class="suggestions-box d-flex justify-content-center flex-wrap">
             @if (ViewBag.RecommendedVideos != null)
             {
                 @foreach (var video in ViewBag.RecommendedVideos)
                 {
                     <div class="suggestion-item">
-                        <a href="#" onclick="showVideo('@video.VideoId')">@video.Title</a>
+                        <a href="#" onclick="showVideo('@video.VideoId')">
+                            <div class="suggestion-thumbnail">
+                                <img src="https://img.youtube.com/vi/@video.VideoId/mqdefault.jpg" alt="@video.Title" />
+                            </div>
+                            <div class="suggestion-title">
+                                @video.Title
+                            </div>
+                        </a>
                     </div>
                 }
             }
         </div>
     </div>
 }
+
 
 <!-- Search Results -->
 @if (ViewBag.Videos != null && ViewBag.Videos.Count > 0)
@@ -124,39 +131,61 @@
         color: #f5f5f5;
     }
 
-    .suggestions-container {
-        margin-top: 20px;
-    }
-
     .suggestions-box {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-    }
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to the next line */
+    justify-content: center;
+    gap: 20px;
+    max-width: 900px; /* Slightly wider container for larger items */
+    margin: 0 auto; /* Center align the suggestions */
+}
 
-    .suggestion-item {
-        background-color: #f1f1f1;
-        padding: 15px;
-        border-radius: 10px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        text-align: center;
-        transition: transform 0.3s ease;
-    }
+.suggestion-item {
+    background-color: #f9f9f9;
+    padding: 15px; /* Increased padding for more space */
+    border-radius: 12px; /* Slightly larger border-radius */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 200px; /* Increased width for larger items */
+}
 
-    .suggestion-item a {
-        font-size: 18px;
-        color: #007bff;
-        text-decoration: none;
-    }
+.suggestion-item a {
+    text-decoration: none;
+    color: inherit;
+}
 
-    .suggestion-item a:hover {
-        text-decoration: underline;
-    }
+.suggestion-item a:hover .suggestion-title {
+    color: #0056b3;
+}
 
-    .suggestion-item:hover {
-        transform: translateY(-5px);
-    }
+.suggestion-item:hover {
+    transform: translateY(-5px);
+}
 
+.suggestion-thumbnail {
+    width: 180px; /* Increased thumbnail size */
+    height: 100px; /* Proportional height for the thumbnail */
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 12px; /* Adjusted spacing below the thumbnail */
+}
+
+.suggestion-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.suggestion-title {
+    font-size: 18px; /* Larger font size for titles */
+    font-weight: bold;
+    color: #333;
+    word-wrap: break-word; /* Allow text to wrap onto multiple lines */
+    white-space: normal; /* Allow the text to break and wrap naturally */
+    line-height: 1.5; /* Better line spacing for wrapped text */
+    word-break: break-word; /* Ensure long words break if needed */
+}
     .results-container {
         margin-top: 30px;
         display: flex;

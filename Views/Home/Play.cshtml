@@ -1,4 +1,5 @@
 @using KaraokeApp.Controllers
+@Html.Partial("_Header")
 @{
     ViewData["Title"] = "Play Video";
     var queue = ViewBag.Queue as List<QueueItem> ?? new List<QueueItem>();
@@ -11,55 +12,59 @@
         <!-- Video Player Column -->
         <div class="col-md-8">
             <div class="video-container mb-4">
-                <iframe id="videoFrame" 
-                        width="100%" 
-                        height="450" 
-                        src="https://www.youtube.com/embed/@ViewBag.VideoId?autoplay=1" 
-                        frameborder="0" 
-                        allow="autoplay; encrypted-media" 
-                        allowfullscreen>
+                <iframe id="videoFrame"                     
+                    src="https://www.youtube.com/embed/@ViewBag.VideoId?autoplay=1" 
+                    frameborder="0" 
+                    allow="autoplay; encrypted-media" 
+                    allowfullscreen>
                 </iframe>
-            </div>
-
-            <!-- Queue Section -->
-            <div id="queueContainer" class="mt-4">
-                <h3>Queue (<span id="queueCount">@queue.Count</span>/10)</h3>
-                <div id="queueList">
-                    @foreach (var item in queue)
-                    {
-                        <div class="queue-item" id="queue-item-@item.VideoId">
-                            <p><strong>@item.Title</strong></p>
-                            <div class="btn-group">
-                                <button onclick="playNow('@item.VideoId')" class="btn btn-primary btn-sm me-2">Play Now</button>
-                                <button onclick="removeFromQueue('@item.VideoId')" class="btn btn-danger btn-sm">Remove</button>
-                            </div>
-                        </div>
-                    }
-                    @if (!queue.Any())
-                    {
-                        <p id="emptyQueueMessage">Your queue is empty.</p>
-                    }
-                </div>
             </div>
         </div>
 
-        <!-- Search Column -->
+        <!-- Queue and Search Section (Right Side) -->
         <div class="col-md-4">
-            <div class="search-container">
-                <form id="searchForm" class="mb-3">
-                    @Html.AntiForgeryToken()
-                    <div class="input-group">
-                        <input type="text" 
-                               id="searchQuery" 
-                               class="form-control" 
-                               placeholder="Search for videos" 
-                               required />
-                        <button type="submit" class="btn btn-primary">Search</button>
+            <div class="queue-search-container mt-4">
+                <!-- Queue Section -->
+                <div id="queueContainer" class="mb-4">
+                    <div class="centered-heading">
+                        <h3>ADD SONGS TO QUEUE  (<span id="queueCount">@queue.Count</span>/10)</h3>
                     </div>
-                </form>
+                    <div id="queueList">
+                        @foreach (var item in queue)
+                        {
+                            <div class="queue-item" id="queue-item-@item.VideoId">
+                                <p><strong>@item.Title</strong></p>
+                                <div class="btn-group">
+                                    <button onclick="playNow('@item.VideoId')" class="btn btn-primary btn-sm me-2">Play Now</button>
+                                    <button onclick="removeFromQueue('@item.VideoId')" class="btn btn-danger btn-sm">Remove</button>
+                                </div>
+                            </div>
+                        }
+                        @if (!queue.Any())
+                        {
+                            <p id="emptyQueueMessage">Your queue is empty.</p>
+                        }
+                    </div>
+                </div>
 
-                <div id="searchResults" class="mt-3">
-                    <p>Use the search bar above to find videos.</p>
+                <!-- Search Section -->
+                <div class="search-container">
+                    <form id="searchForm" class="mb-3">
+                        @Html.AntiForgeryToken()
+                        <div class="input-group">
+                            <input type="text" 
+                                   id="searchQuery" 
+                                   class="form-control" 
+                                   placeholder="   Start singing now!" 
+                                   required />
+                            <button type="submit" class="btn btn-primary">Search</button>
+                        </div>
+                    </form>
+
+                    <!-- Search Results Section (Now scrollable) -->
+                    <div id="searchResults" class="mt-3">
+                        <!-- Search results will appear here -->
+                    </div>
                 </div>
             </div>
         </div>
@@ -70,34 +75,117 @@
     .video-container {
         position: relative;
         width: 100%;
+        max-width: 800px;
+        height: 30vh;
         background: #f8f9fa;
         border-radius: 8px;
         overflow: hidden;
+        z-index: 1000;
+        padding-bottom: 30%;
+        margin-top: 20px;
+        margin-bottom: 50px;
     }
 
-    .search-container {
+    #videoFrame {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .col-md-8 {
+        flex: 1 1 50%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .col-md-4 {
+        flex: 1 1 50%;
+    }
+
+    .queue-search-container {
+        margin-top: 20px;
+        border-radius: 8px;
+        margin-left: 5px;
+        display: flex;
+        background: #d8d8d8;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        z-index: 1001;
+        position: relative;
+    }
+
+    .search-container, .queue-item {
         background: #f8f9fa;
         padding: 15px;
         border-radius: 8px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    #searchQuery {
+        border-radius: 50px;
+        padding: 8px 2px;
+        width: 100%;
+        border: 2px solid #787878;
+        font-size: 16px;
+    }
+
+    #searchQuery:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    }
+
+    btn-primary {
+        background-color: #20983e; /* Green for Play Now */
+        border-color: #40AA5B;
+        color: white;
+    }
+
+    .btn-primary:hover {
+        background-color: #328a44; /* Slightly darker green */
+        border-color: #328a44;
+    }
+
+    .btn-danger {
+        background-color: #d9534f; /* Red for Remove */
+        border-color: #d43f3a;
+        color: white;
+    }
+
+    .btn-danger:hover {
+        background-color: #c9302c; /* Darker red for hover */
+        border-color: #ac2925;
+    }
+
+    .btn-sm {
+        padding: 8px 15px; /* Adjust for smaller buttons */
+        font-size: 14px;
+        border-radius: 25px;
+    }
+
+    .me-2 {
+        margin-right: 8px; /* Adds spacing between buttons */
+    }
+
+    .input-group {
+        display: flex;
+        width: 100%;
+        max-width: 800px;
+        gap: 10px;
     }
 
     .queue-item {
-        background: white;
-        padding: 10px;
-        margin-bottom: 10px;
-        border-radius: 4px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-    }
-
-    .search-result {
-        background: white;
-        padding: 10px;
-        margin-bottom: 10px;
-        border-radius: 4px;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     }
 
     .queue-item p {
@@ -105,7 +193,23 @@
         flex-grow: 1;
         margin-right: 10px;
     }
+
+    .centered-heading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    /* Scrollable Search Results */
+    #searchResults {
+        max-height: 300px; /* Adjust height based on your needs */
+        overflow-y: auto;  /* Enables vertical scrolling */
+        padding-right: 15px; /* Prevents content from being cut off */
+    }
 </style>
+
 
 @section Scripts {
     <script>
@@ -166,7 +270,7 @@
                 return;
             }
 
-            const queueHtml = queue.map(item => `
+            const queueHtml = queue.map(item => `  
                 <div class="queue-item" id="queue-item-${item.videoId}">
                     <p><strong>${item.title}</strong></p>
                     <div class="btn-group">
@@ -188,30 +292,30 @@
 
         // Remove from Queue function
         async function removeFromQueue(videoId) {
-    try {
-        const token = document.querySelector('input[name="__RequestVerificationToken"]').value;
-        const response = await fetch('/Home/RemoveFromQueue', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/x-www-form-urlencoded',
-                'RequestVerificationToken': token
-            },
-            body: `videoId=${encodeURIComponent(videoId)}`
-        });
+            try {
+                const token = document.querySelector('input[name="__RequestVerificationToken"]').value;
+                const response = await fetch('/Home/RemoveFromQueue', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded',
+                        'RequestVerificationToken': token
+                    },
+                    body: `videoId=${encodeURIComponent(videoId)}`
+                });
 
-        if (!response.ok) {
-            throw new Error('Network response was not ok');
-        }
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
 
-        const result = await response.json();
-        if (result.success) {
-            updateQueueDisplay(result.queue);
+                const result = await response.json();
+                if (result.success) {
+                    updateQueueDisplay(result.queue);
+                }
+            } catch (error) {
+                console.error('Error removing from queue:', error);
+                alert('Failed to remove video from queue. Please try again.');
+            }
         }
-    } catch (error) {
-        console.error('Error removing from queue:', error);
-        alert('Failed to remove video from queue. Please try again.');
-    }
-}
 
         // Play Now function
         async function playNow(videoId) {
