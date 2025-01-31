@@ -154,11 +154,19 @@ namespace KaraokeApp.Controllers
         [HttpPost]
         public IActionResult PlayNow(string videoId)
         {
-            var queue = HttpContext.Session.Get<List<QueueItem>>(QUEUE_KEY) ?? new List<QueueItem>();
-            queue.RemoveAll(q => q.VideoId == videoId);
-            HttpContext.Session.Set(QUEUE_KEY, queue);
+            try
+            {
+                var queue = HttpContext.Session.Get<List<QueueItem>>(QUEUE_KEY) ?? new List<QueueItem>();
+                queue.RemoveAll(q => q.VideoId == videoId);
+                HttpContext.Session.Set(QUEUE_KEY, queue);
 
-            return Json(new { redirectUrl = Url.Action("Play", new { videoId = videoId }) });
+                return Json(new { success = true, videoId = videoId });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error in PlayNow");
+                return Json(new { success = false, message = "Failed to play video" });
+            }
         }
 
         [HttpPost]
