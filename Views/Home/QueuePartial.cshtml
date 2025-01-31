@@ -1,0 +1,22 @@
+@model List<KaraokeApp.Controllers.QueueItem>
+
+<h3>Queue (@Model.Count/10)</h3>
+<div id="queueList">
+    @if (Model != null && Model.Any())
+    {
+        foreach (var item in Model)
+        {
+            <div class="queue-item" id="queue-item-@item.VideoId">
+                <p><strong>@item.Title</strong></p>
+                <div class="btn-group">
+                    <button onclick="playNow('@item.VideoId')" class="btn btn-primary btn-sm me-2">Play Now</button>
+                    <button onclick="removeFromQueue('@item.VideoId')" class="btn btn-danger btn-sm">Remove</button>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <p id="emptyQueueMessage">Your queue is empty.</p>
+    }
+</div>

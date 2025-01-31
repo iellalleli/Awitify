@@ -1,0 +1,240 @@
+﻿@{
+    ViewData["Title"] = "Awitify";
+    Layout = "~/Views/Shared/HomeLayout.cshtml";
+}
+
+<!-- Search Bar -->
+<form method="post" asp-action="Search" class="search-bar d-flex justify-content-center align-items-center mb-4" style="margin-top: 20vh;">
+    <input type="text" name="query" placeholder="Search for karaoke songs..." required class="form-control search-input" />
+    <button type="submit" class="btn btn-primary">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M14 14L11.1 11.1M12.6667 7.33333C12.6667 10.2789 10.2789 12.6667 7.33333 12.6667C4.38781 12.6667 2 10.2789 2 7.33333C2 4.38781 4.38781 2 7.33333 2C10.2789 2 12.6667 4.38781 12.6667 7.33333Z" stroke="#F5F5F5" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+    </button>
+</form>
+
+<!-- Karaoke Song Suggestions (Visible only if no search results) -->
+@if (ViewBag.Videos == null || ViewBag.Videos.Count == 0)
+{
+    <div class="suggestions-container text-center mt-4">
+        <h3>Recommended Karaoke Songs:</h3>
+        <div class="suggestions-box d-flex justify-content-center">
+            @if (ViewBag.RecommendedVideos != null)
+            {
+                @foreach (var video in ViewBag.RecommendedVideos)
+                {
+                    <div class="suggestion-item">
+                        <a href="#" onclick="showVideo('@video.VideoId')">@video.Title</a>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+}
+
+<!-- Search Results -->
+@if (ViewBag.Videos != null && ViewBag.Videos.Count > 0)
+{
+    <div class="results-container text-left">
+        @foreach (var video in ViewBag.Videos)
+        {
+            <div class="result-item">
+                <a href="#" onclick="showVideo('@video.VideoId')">
+                    <div class="result-thumbnail">
+                        <img src="https://img.youtube.com/vi/@video.VideoId/maxresdefault.jpg" alt="@video.Title" />
+                    </div>
+                </a>
+                <div class="result-title">
+                    @video.Title
+                </div>
+            </div>
+        }
+    </div>
+}
+
+<!-- Embedded Video Player and Additional Content -->
+<div id="videoSection" class="d-flex mt-4" style="display: none; gap: 30px;">
+    <!-- Video Player -->
+    <div id="player" style="flex: 1;">
+        <iframe id="videoFrame" width="800" height="450" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+</div>
+
+<script>
+    function showVideo(videoId) {
+        // Navigate to the Play page with the selected video
+        window.location.href = `/Home/Play?videoId=${videoId}`;
+    }
+</script>
+
+<style>
+    .search-bar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 391px;
+        height: 40px;
+        padding: 0 12px;
+        border-radius: 40px;
+        border: 2px solid rgb(255, 255, 255);
+        background-color: #ffffff !important;
+        font-family: Roboto, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        position: relative;
+        z-index: 9999;
+    }
+
+    .search-bar input {
+        flex: 1;
+        border: none;
+        background-color: #ffffff !important;
+        color: #000000;
+        padding: 8px 12px;
+        font-size: 1rem;
+    }
+
+    .search-bar input:focus {
+        outline: none;
+        border-color: transparent;
+    }
+
+    .search-bar svg {
+        margin-left: 8px;
+        cursor: pointer;
+        background: none;
+    }
+
+    .search-bar button {
+        background: none;
+        border: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .search-bar input::placeholder {
+        color: #ccc;
+        opacity: 1;
+    }
+
+    .search-bar input:focus::placeholder {
+        color: #f5f5f5;
+    }
+
+    .suggestions-container {
+        margin-top: 20px;
+    }
+
+    .suggestions-box {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .suggestion-item {
+        background-color: #f1f1f1;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        transition: transform 0.3s ease;
+    }
+
+    .suggestion-item a {
+        font-size: 18px;
+        color: #007bff;
+        text-decoration: none;
+    }
+
+    .suggestion-item a:hover {
+        text-decoration: underline;
+    }
+
+    .suggestion-item:hover {
+        transform: translateY(-5px);
+    }
+
+    .results-container {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .result-item {
+        display: flex;
+        margin-bottom: 20px;
+        gap: 15px;
+        max-width: 560px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 10px;
+        align-items: center;
+        transition: transform 0.3s ease;
+        width: 100%;
+        height: 120px;
+        cursor: pointer;
+    }
+
+    .result-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .result-thumbnail {
+        width: 120px;
+        height: 90px;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    .result-thumbnail img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .result-title {
+        font-size: 18px;
+        color: #007bff;
+        margin-left: 15px;
+        display: flex;
+        align-items: center;
+    }
+
+    #videoSection {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px; /* Add some space between the video and additional container */
+	 z-index: 1001; /* Set a z-index to ensure the section appears in front */
+}
+
+.additional-container {
+    width: 300px;
+    background: #3b3b3b;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 400px; /* Match the video player height */
+    margin-top: 100px; /* Move it downward */
+	z-index: 1001; /* Set a z-index to ensure the section appears in front */
+
+}
+
+    #player {
+        margin-top: 100px;
+    	z-index: 1001; /* Set a z-index to ensure the section appears in front */
+	}
+
+    iframe#videoFrame {
+        width: 800px;
+        height: 450px;
+    }
+</style>

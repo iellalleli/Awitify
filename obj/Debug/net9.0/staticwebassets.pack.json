@@ -1,0 +1,73 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\KaraokeApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\KaraokeApp.sbp3dbxltu.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\AwitifyIcon.png",
+      "PackagePath": "staticwebassets\\image\\AwitifyIcon.png"
+    },
+    {
+      "Id": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\AwitifyLogo.png",
+      "PackagePath": "staticwebassets\\image\\AwitifyLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\Header.png",
+      "PackagePath": "staticwebassets\\image\\Header.png"
+    },
+    {
+      "Id": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\LandingPage.png",
+      "PackagePath": "staticwebassets\\image\\LandingPage.png"
+    },
+    {
+      "Id": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\LoginLogo.png",
+      "PackagePath": "staticwebassets\\image\\LoginLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\LoginPage.png",
+      "PackagePath": "staticwebassets\\image\\LoginPage.png"
+    },
+    {
+      "Id": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\RegisterLogo.png",
+      "PackagePath": "staticwebassets\\image\\RegisterLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\RegisterPage.png",
+      "PackagePath": "staticwebassets\\image\\RegisterPage.png"
+    },
+    {
+      "Id": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.KaraokeApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.KaraokeApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.KaraokeApp.props",
+      "PackagePath": "build\\KaraokeApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.KaraokeApp.props",
+      "PackagePath": "buildMultiTargeting\\KaraokeApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.KaraokeApp.props",
+      "PackagePath": "buildTransitive\\KaraokeApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

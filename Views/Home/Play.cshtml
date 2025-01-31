@@ -1,0 +1,308 @@
+@using KaraokeApp.Controllers
+@{
+    ViewData["Title"] = "Play Video";
+    var queue = ViewBag.Queue as List<QueueItem> ?? new List<QueueItem>();
+}
+
+<div class="container">
+    <h1 class="text-center mb-4">Now Playing</h1>
+
+    <div class="row">
+        <!-- Video Player Column -->
+        <div class="col-md-8">
+            <div class="video-container mb-4">
+                <iframe id="videoFrame" 
+                        width="100%" 
+                        height="450" 
+                        src="https://www.youtube.com/embed/@ViewBag.VideoId?autoplay=1" 
+                        frameborder="0" 
+                        allow="autoplay; encrypted-media" 
+                        allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- Queue Section -->
+            <div id="queueContainer" class="mt-4">
+                <h3>Queue (<span id="queueCount">@queue.Count</span>/10)</h3>
+                <div id="queueList">
+                    @foreach (var item in queue)
+                    {
+                        <div class="queue-item" id="queue-item-@item.VideoId">
+                            <p><strong>@item.Title</strong></p>
+                            <div class="btn-group">
+                                <button onclick="playNow('@item.VideoId')" class="btn btn-primary btn-sm me-2">Play Now</button>
+                                <button onclick="removeFromQueue('@item.VideoId')" class="btn btn-danger btn-sm">Remove</button>
+                            </div>
+                        </div>
+                    }
+                    @if (!queue.Any())
+                    {
+                        <p id="emptyQueueMessage">Your queue is empty.</p>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <!-- Search Column -->
+        <div class="col-md-4">
+            <div class="search-container">
+                <form id="searchForm" class="mb-3">
+                    @Html.AntiForgeryToken()
+                    <div class="input-group">
+                        <input type="text" 
+                               id="searchQuery" 
+                               class="form-control" 
+                               placeholder="Search for videos" 
+                               required />
+                        <button type="submit" class="btn btn-primary">Search</button>
+                    </div>
+                </form>
+
+                <div id="searchResults" class="mt-3">
+                    <p>Use the search bar above to find videos.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .video-container {
+        position: relative;
+        width: 100%;
+        background: #f8f9fa;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    .search-container {
+        background: #f8f9fa;
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+    .queue-item {
+        background: white;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 4px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    .search-result {
+        background: white;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 4px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    .queue-item p {
+        margin: 0;
+        flex-grow: 1;
+        margin-right: 10px;
+    }
+</style>
+
+@section Scripts {
+    <script>
+        const maxQueueSize = 10;
+        
+        // Add to Queue function
+        async function addToQueue(videoId, title) {
+            try {
+                console.log('Adding to queue:', { videoId, title }); // Debug log
+                
+                const token = document.querySelector('input[name="__RequestVerificationToken"]').value;
+                const response = await fetch('/Home/AddToQueue', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded',
+                        'X-Requested-With': 'XMLHttpRequest',
+                        'RequestVerificationToken': token
+                    },
+                    body: `videoId=${encodeURIComponent(videoId)}&title=${encodeURIComponent(title)}`
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const result = await response.json();
+                console.log('Queue response:', result); // Debug log
+                
+                if (result.success) {
+                    updateQueueDisplay(result.queue);
+                    return true;
+                } else {
+                    alert(result.message || 'Failed to add to queue');
+                    return false;
+                }
+            } catch (error) {
+                console.error('Error adding to queue:', error);
+                alert('Failed to add video to queue. Please try again.');
+                return false;
+            }
+        }
+
+        // Update Queue Display
+        function updateQueueDisplay(queue) {
+            console.log('Updating queue display:', queue); // Debug log
+            const queueList = document.getElementById('queueList');
+            const queueCount = document.getElementById('queueCount');
+            
+            if (!queueList || !queueCount) {
+                console.error('Queue elements not found');
+                return;
+            }
+            
+            queueCount.textContent = queue.length;
+            
+            if (!queue || queue.length === 0) {
+                queueList.innerHTML = '<p id="emptyQueueMessage">Your queue is empty.</p>';
+                return;
+            }
+
+            const queueHtml = queue.map(item => `
+                <div class="queue-item" id="queue-item-${item.videoId}">
+                    <p><strong>${item.title}</strong></p>
+                    <div class="btn-group">
+                        <button onclick="playNow('${item.videoId}')" class="btn btn-primary btn-sm me-2">Play Now</button>
+                        <button onclick="removeFromQueue('${item.videoId}')" class="btn btn-danger btn-sm">Remove</button>
+                    </div>
+                </div>
+            `).join('');
+
+            queueList.innerHTML = queueHtml;
+        }
+
+        // Initialize queue refresh
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Initializing queue refresh'); // Debug log
+            refreshQueue(); // Initial queue load
+            setInterval(refreshQueue, 30000); // Refresh every 30 seconds
+        });
+
+        // Remove from Queue function
+        async function removeFromQueue(videoId) {
+    try {
+        const token = document.querySelector('input[name="__RequestVerificationToken"]').value;
+        const response = await fetch('/Home/RemoveFromQueue', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+                'RequestVerificationToken': token
+            },
+            body: `videoId=${encodeURIComponent(videoId)}`
+        });
+
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+
+        const result = await response.json();
+        if (result.success) {
+            updateQueueDisplay(result.queue);
+        }
+    } catch (error) {
+        console.error('Error removing from queue:', error);
+        alert('Failed to remove video from queue. Please try again.');
+    }
+}
+
+        // Play Now function
+        async function playNow(videoId) {
+            try {
+                const token = document.querySelector('input[name="__RequestVerificationToken"]').value;
+                const response = await fetch('/Home/PlayNow', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded',
+                        'RequestVerificationToken': token
+                    },
+                    body: `videoId=${encodeURIComponent(videoId)}`
+                });
+
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+
+                const result = await response.json();
+                if (result.redirectUrl) {
+                    window.location.href = result.redirectUrl;
+                }
+            } catch (error) {
+                console.error('Error playing video:', error);
+                alert('Failed to play video. Please try again.');
+            }
+        }
+
+        // Search function
+        async function performSearch(query) {
+            try {
+                const token = document.querySelector('input[name="__RequestVerificationToken"]').value;
+                const response = await fetch('/Home/SearchOnPlay', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded',
+                        'RequestVerificationToken': token
+                    },
+                    body: `query=${encodeURIComponent(query)}`
+                });
+
+                if (!response.ok) {
+                    throw new Error('Search failed');
+                }
+                
+                const data = await response.text();
+                document.getElementById('searchResults').innerHTML = data;
+            } catch (error) {
+                console.error('Search error:', error);
+                document.getElementById('searchResults').innerHTML = 
+                    '<p class="text-danger">Error performing search. Please try again.</p>';
+            }
+        }
+
+        // Search form submit handler
+        document.getElementById('searchForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            const query = document.getElementById('searchQuery').value.trim();
+            if (query) {
+                document.getElementById('searchResults').innerHTML = 
+                    '<p class="text-muted">Searching...</p>';
+                await performSearch(query);
+            }
+        });
+
+        // Refresh queue periodically
+        async function refreshQueue() {
+            try {
+                const response = await fetch('/Home/GetQueue', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded',
+                        'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value
+                    }
+                });
+                
+                if (!response.ok) {
+                    throw new Error('Failed to refresh queue');
+                }
+                
+                const queue = await response.json();
+                updateQueueDisplay(queue);
+            } catch (error) {
+                console.error('Error refreshing queue:', error);
+            }
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            // Refresh queue every 30 seconds
+            setInterval(refreshQueue, 30000);
+        });
+    </script>
+}

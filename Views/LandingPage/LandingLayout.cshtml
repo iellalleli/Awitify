@@ -1,0 +1,128 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewData["Title"] - Awitify</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="~/css/site.css" />
+        <style>
+            body, html {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+                width: 100%;
+                flex-shrink: 0;
+                
+            }
+
+            .landing-page {
+                display: grid;
+                grid-template-rows: 300px 50px 80px; /* Logo, text box, and buttons */
+                grid-template-columns: 1fr; /* Single-column layout */
+                align-items: center;
+                justify-items: center;
+                place-items: center; /* Center content horizontally and vertically */
+                background-image: url('/image/LandingPage.png');
+                background-size: cover;
+                background-position: center center;
+                height: 100%; /* Full screen height */
+                width: 100%; /* Full screen width */
+            }
+
+            .logo-container {
+                margin-top: 200px;
+                display: flex;
+                justify-content: center; /* Center logo horizontally */
+            }
+
+            .logo {
+                width: 850px; /* Set a fixed size for the logo */
+                height: auto; /* Maintain aspect ratio */
+            }
+
+            .text-box {
+                width: 800px;
+                max-width: 80%; /* Constrain the text box width */
+                color: #fff;
+                font-family: "Reddit Sans", sans-serif;
+                font-size: 24px;
+                line-height: 29px; /* Adjust line height */
+                margin-top: 200px;
+            }
+
+            /* Position the buttons at the lower-right corner */
+            .btn-container {
+                display: flex; /* Use flexbox for alignment */
+                flex-direction: row; /* arrange buttons horizontally */
+                gap: 15px; /* Add space between the buttons */
+                padding: 10px 0; /* Use padding for spacing */
+                margin-top: 200px;
+                margin-left: 500px;
+            }
+
+            .btn-login, .btn-signup {
+                display: flex;
+                border: 2px solid white;
+                height: 50px;
+                padding: 4px 15px;
+                justify-content: center;
+                align-items: center;
+                gap: 8px;
+                flex-shrink: 0;
+                border-radius: 22px;
+                
+            }
+            /* Style for Login button (white background with black text) */
+            .btn-login {
+                background-color: white;
+                width: 150px; /* Adjust width as needed for longer buttons */
+            color: var(--Cyan-8, #006D75);
+            text-align: center;
+            font-family: Roboto, sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px;
+                border: 3px solid #F5F5F5;
+                box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.04);
+            }
+
+            .btn-login:hover {
+                background-color: #ffffff; /* Light grey on hover */
+                color: #058787; /* Dark text on hover */
+                border: 2px solid white;
+            }
+
+
+            /* Style for Sign Up button (transparent with white border) */
+            .btn-signup {
+                background-color: transparent;
+                width: 120px; /* Adjust width as needed for longer buttons */
+            color: var(--Neutral-1, #FFF);
+            text-align: center;
+            /* H3/medium */
+            font-family: Roboto, sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px; /* 133.333% */
+            border-radius: 22px;
+            border: 3px solid var(--Neutral-1, #FFF);
+            box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.04);
+            }
+
+            .btn-signup:hover {
+                background-color: #f8f9fa; /* Light grey on hover */
+                color: #058787; /* Dark text on hover */
+            }
+        </style>
+    </head>
+    <body>
+
+        @RenderBody() <!-- This is where the content of the page will go -->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>

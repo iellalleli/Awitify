@@ -1,0 +1,21 @@
+@model IEnumerable<dynamic>
+@using System.Web
+
+<h3>Search Results</h3>
+@if (Model != null && Model.Any())
+{
+    foreach (var result in Model)
+    {
+        <div class="search-result mb-2">
+            <p><strong>@result.Title</strong></p>
+            <div class="btn-group">
+                <button onclick="playNow('@result.VideoId')" class="btn btn-primary btn-sm me-2">Play Now</button>
+                <button onclick="addToQueue('@result.VideoId', '@Html.Raw(System.Web.HttpUtility.JavaScriptStringEncode(result.Title))')" class="btn btn-success btn-sm">Add to Queue</button>
+            </div>
+        </div>
+    }
+}
+else
+{
+    <p>No results found.</p>
+}

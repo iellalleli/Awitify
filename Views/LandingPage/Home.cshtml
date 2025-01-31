@@ -1,0 +1,22 @@
+@{
+    Layout = "~/Views/LandingPage/LandingLayout.cshtml";
+}
+
+<!-- Landing page container with background image -->
+@* <a asp-controller="Home" asp-action="HomePage">Homepage</a> *@
+<div class="landing-page">
+    
+    <div class="logo-container">
+        <img src="/image/AwitifyLogo.png" alt="Awitify Logo" class="logo">
+    </div>
+
+    <div class="text-box">
+        <p>Awitify is a karaoke web application that uses YouTube API to provide a seamless singing experience by being able to set YouTube videos of karaoke songs in a queue.</p>
+    </div>
+
+    <!-- Button container for Login and Sign Up positioned at bottom-right -->
+    <div class="btn-container">
+        <a asp-controller="Account" asp-action="Login" class="btn btn-login btn-lg" aria-label="Login">Login</a>
+        <a asp-controller="Account" asp-action="SignUp" class="btn btn-signup btn-lg" aria-label="Sign Up">Register</a>
+    </div>
+</div>

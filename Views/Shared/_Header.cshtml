@@ -1,0 +1,143 @@
+﻿@{
+}
+
+<style>
+    .main-header {
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        width: 100%;
+        flex-shrink: 0;
+        height: 80px; /* Adjust as needed */
+        background-image: url('/image/Header.png');
+        background-size: cover; /* Ensure the image scales to cover the header area */
+        background-position: center; /* Center the image */
+        color: #fff; /* Text color */
+        box-shadow: 0px 75px 150px rgb(0, 109, 117); /* Shadow with 1.5-inch height */
+    }
+
+    .main-header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; /* Ensures all items align vertically */
+        padding: 0 20px; /* Add consistent padding around the header */
+        height: 100%; /* Ensures alignment works correctly */
+    }
+
+    .btn {
+        display: flex; /* Ensure the button respects flexbox alignment */
+        align-items: center; /* Center icon vertically */
+        justify-content: center;
+        text-decoration: none; /* Remove underline from links */
+    }
+
+    .btn-home, .btn-profile {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+
+    .content {
+        margin-top: 70px; /* Prevent content from overlapping the header */
+    }
+
+    .home-icon {
+        width: 90px; /* Adjust size as needed */
+        height: auto; /* Maintain aspect ratio */
+        margin-right: 12px; /* Optional: Add spacing if there's text next to the icon */
+    }
+
+    .profile-dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .btn-profile {
+        background: none;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        padding: 0;
+    }
+
+    .profile-icon {
+        width: 40px; /* Adjust as needed */
+        height: 40px;
+        border-radius: 50%; /* Optional for circular profile icons */
+    }
+
+    .dropdown-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background: #fff;
+        color: #333;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        min-width: 150px;
+        z-index: 1000;
+        overflow: hidden;
+        font-family: Roboto, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+    }
+
+    .dropdown-menu a {
+        display: block;
+        padding: 10px 15px;
+        text-decoration: none;
+        color: #333;
+        font-size: 0.9rem;
+    }
+
+    .dropdown-menu a:hover {
+        background: #f5f5f5;
+    }
+
+    .profile-dropdown.open .dropdown-menu {
+        display: block;
+    }
+</style>
+
+<nav class="main-header">
+    <div class="container d-flex justify-content-between align-items-center">
+        <!-- Home Button -->
+        <a href="/home/HomePage" class="btn" aria-label="Home">
+            <img src="/image/AwitifyIcon.png" alt="Home" class="home-icon">
+        </a>
+
+        <!-- Removed Search Bar -->
+
+        <!-- Profile Button -->
+        <div class="profile-dropdown">
+            <button class="btn-profile" aria-label="Profile">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="none" color="#ffffff">
+                    <path d="M6.57757 15.4816C5.1628 16.324 1.45336 18.0441 3.71266 20.1966C4.81631 21.248 6.04549 22 7.59087 22H16.4091C17.9545 22 19.1837 21.248 20.2873 20.1966C22.5466 18.0441 18.8372 16.324 17.4224 15.4816C14.1048 13.5061 9.89519 13.5061 6.57757 15.4816Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M16.5 6.5C16.5 8.98528 14.4853 11 12 11C9.51472 11 7.5 8.98528 7.5 6.5C7.5 4.01472 9.51472 2 12 2C14.4853 2 16.5 4.01472 16.5 6.5Z" stroke="currentColor" stroke-width="1.5" />
+                </svg>
+            </button>
+            <div class="dropdown-menu">
+                <a href="/ProfilePage">View Profile</a>
+                <a href="/settings">Settings</a>
+                <a href="/LandingPage/Home">Logout</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<script>
+    document.addEventListener('click', function (event) {
+        const dropdown = document.querySelector('.profile-dropdown');
+        const isClickInside = dropdown.contains(event.target);
+
+        if (isClickInside) {
+            dropdown.classList.toggle('open');
+        } else {
+            dropdown.classList.remove('open');
+        }
+    });
+</script>

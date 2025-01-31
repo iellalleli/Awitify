@@ -1,0 +1,66 @@
+@{
+    Layout = "~/Views/LandingPage/LandingLayout.cshtml";
+}
+
+<div class="container-fluid d-flex justify-content-end align-items-center" style="background-image: url('/image/LoginPage.png'); background-size: cover; height: 100%; width: 100%; margin: 0; padding: 0;">
+    
+    <div style=" display: flex; justify-content: center; width: 800px; height: auto; padding-right: 300px;">
+        <img src="/image/LoginLogo.png" alt="Login logo" class="logo">
+    </div>
+    
+    <div class="p-5" style="background-color: white; border-radius: 10px; width: 353px; max-width: 400px; margin-right: 1in;">
+        <!-- Back Arrow with Word -->
+        <a href="/" class="btn" style="margin-bottom: 6px; display: inline-flex; height: 32px; align-items: center; gap: 5px; flex-shrink: 0; justify-content: center; color: var(--character-title-85, rgba(0, 0, 0, 0.85)); font-family: var(--Title-Small-Font, Roboto); font-size: var(--Title-Small-Size, 14px); font-style: normal;font-weight: 500; line-height: var(--Title-Small-Line-Height, 20px); letter-spacing: var(--Title-Small-Tracking, 0.1px);">
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                <path d="M14.6563 7.85277H4.04292L10.3954 2.42419C10.4969 2.33669 10.4353 2.17419 10.301 2.17419H8.6957C8.62495 2.17419 8.55784 2.19919 8.50523 2.24384L1.65033 8.09919C1.58755 8.15277 1.53719 8.219 1.50269 8.29341C1.46818 8.36781 1.45032 8.44865 1.45032 8.53044C1.45032 8.61224 1.46818 8.69308 1.50269 8.76748C1.53719 8.84189 1.58755 8.90812 1.65033 8.96169L8.54514 14.8528C8.57235 14.876 8.605 14.8885 8.63947 14.8885H10.2992C10.4335 14.8885 10.4951 14.7242 10.3936 14.6385L4.04292 9.20991H14.6563C14.7361 9.20991 14.8014 9.14562 14.8014 9.06705V7.99562C14.8014 7.91705 14.7361 7.85277 14.6563 7.85277Z" fill="black" fill-opacity="0.85" />
+            </svg>
+            back
+        </a>
+
+        <form method="post" action="/Account/Login">
+            <div class="form-group text-left" style="padding-bottom:12px;">
+                <label for="usernameOrEmail" class="text" style="display: flex; height: 23px; padding-bottom: 16px; flex-direction: column; align-items: flex-start; gap: 16px; align-self: stretch; color: var(--character-primary-85, rgba(0, 0, 0, 0.85)); font-family: Roboto; font-size: 14px; font-style: normal; font-weight: 400; line-height: 22px;">
+                    Email/Username</label>
+                <input type="text" class="form-control" id="usernameOrEmail" name="usernameOrEmail" required
+                       style="display: flex; padding: 5px 12px; align-items: center; align-self: stretch; gap: 4px; border-radius: 10px; border: 1px solid var(--Neutral-5, #D9D9D9); background: var(--Neutral-1, #FFF);"
+                       aria-label="Enter your email or username">
+            </div>
+
+            <div class="form-group text-left">
+                <label for="Password" class="text" style="display: flex; height: 23px; padding-bottom: 16px; flex-direction: column; align-items: flex-start; gap: 16px; align-self: stretch; color: var(--character-primary-85, rgba(0, 0, 0, 0.85)); font-family: Roboto; font-size: 14px; font-style: normal; font-weight: 400; line-height: 22px;">
+                    Password</label>
+                <input type="password" class="form-control" id="Password" name="Password" required
+                       style="display: flex; align-items: center; align-self: stretch; border-radius: 2px; background: var(--Neutral-1, #FFF);">
+            </div>
+            <div class="form-check mt-2">
+                <input type="checkbox" class="form-check-input" id="RememberMe" name="RememberMe">
+                <label class="form-check-label" style="display: flex; height: 23px; flex-direction: column; align-items: flex-start; gap: 16px; color: var(--character-primary-85, rgba(0, 0, 0, 0.85)); font-family: Roboto; font-size: 14px; font-style: normal; font-weight: 400; line-height: 22px;" for="RememberMe">Remember Me</label>
+            </div>
+
+            <!-- Centering the buttons -->
+            <div class="d-flex justify-content-center mt-3">
+                <!-- Green Button, shortened -->
+                <button type="submit" class="btn" id="login-btn" style="display: flex; width: 111px; justify-content: center; align-items: center; gap: 8px; background-color: #007519; color: var(--character-primary-inverse, #FFF); text-align: center; font-family: Roboto; font-size: 14px; font-style: normal; font-weight: 400; line-height: 22px; border: none; border-radius: 38px; padding: 4px 15px;box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.04);">
+                    Login
+                </button>
+            </div>
+        </form>
+
+        <!-- Centered Sign Up link below the form, with no underline -->
+        <div class="d-flex justify-content-center mt-3" style="margin-top: 20px;">
+            <p class="text-dark" style="text-decoration: none;">
+                <a href="/Account/SignUp" class="btn" style="display:flex; width:77px; height:auto; padding: 2px 6px; justify-content: center; align-items:center; gap:10px; flex-shrink: 0; border-radius: 28px; background: var(--Neutral-1, #FFF); color: #007519; text-align: center; font-family: Roboto; font-size: 12px; font-style: normal; font-weight: 400; line-height: 22px;">
+                    Register
+                </a>
+           </p>
+        </div>
+    </div>
+    <script>
+        document.querySelector('#login-btn').addEventListener('click', function() {
+            this.innerHTML = '<span class="spinner-border spinner-border-sm"></span> Loading...';
+        });
+    </script>
+</div>
+
+
+

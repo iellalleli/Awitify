@@ -1,0 +1,2546 @@
+{
+  "Version": 1,
+  "Hash": "Df2RVTCCW4G35ABmDhn/SWIt2RIwk5lY5jhFpcbiWS4=",
+  "Source": "KaraokeApp",
+  "BasePath": "_content/KaraokeApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "KaraokeApp\\wwwroot",
+      "Source": "KaraokeApp",
+      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\",
+      "BasePath": "_content/KaraokeApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\uekzt3cqwj-sbp3dbxltu.gz",
+      "SourceId": "KaraokeApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/KaraokeApp",
+      "RelativePath": "KaraokeApp#[.{fingerprint=sbp3dbxltu}]!.bundle.scp.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\KaraokeApp.bundle.scp.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "f2yp5t8bgn",
+      "Integrity": "t3GopoO+TU8e75U9pIFd7i0hgorjGCKvdXDubn4MKaw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\KaraokeApp.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\vq2nrul6kt-sbp3dbxltu.gz",
+      "SourceId": "KaraokeApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/KaraokeApp",
+      "RelativePath": "KaraokeApp#[.{fingerprint=sbp3dbxltu}]?.styles.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\scopedcss\\bundle\\KaraokeApp.styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "f2yp5t8bgn",
+      "Integrity": "t3GopoO+TU8e75U9pIFd7i0hgorjGCKvdXDubn4MKaw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\scopedcss\\bundle\\KaraokeApp.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\ygmaqczr18-b9sayid5wm.gz",
+      "SourceId": "KaraokeApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/KaraokeApp",
+      "RelativePath": "css/site#[.{fingerprint=b9sayid5wm}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\css\\site.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "0suozzrugb",
+      "Integrity": "0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\z2q2kzeqzq-xtxxf3hu2r.gz",
+      "SourceId": "KaraokeApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/KaraokeApp",
+      "RelativePath": "js/site#[.{fingerprint=xtxxf3hu2r}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\js\\site.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "rl5dcbfpcw",
+      "Integrity": "Ydq7YvQUzhbo68waLZeQvZnPOvmTeQ+HyDqjkA1whsA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\za0d7ieyez-61n19gt1b8.gz",
+      "SourceId": "KaraokeApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/KaraokeApp",
+      "RelativePath": "favicon#[.{fingerprint=61n19gt1b8}]?.ico.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\favicon.ico",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "nezsohjtde",
+      "Integrity": "wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\scopedcss\\bundle\\KaraokeApp.styles.css",
+      "SourceId": "KaraokeApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/KaraokeApp",
+      "RelativePath": "KaraokeApp#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "sbp3dbxltu",
+      "Integrity": "+CuW/WTImYUCMpRzMZKwyY62opFT1OII4mr2rSJfXIE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\scopedcss\\bundle\\KaraokeApp.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\KaraokeApp.bundle.scp.css",
+      "SourceId": "KaraokeApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/KaraokeApp",
+      "RelativePath": "KaraokeApp#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "sbp3dbxltu",
+      "Integrity": "+CuW/WTImYUCMpRzMZKwyY62opFT1OII4mr2rSJfXIE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\KaraokeApp.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\css\\site.css",
+      "SourceId": "KaraokeApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\",
+      "BasePath": "_content/KaraokeApp",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b9sayid5wm",
+      "Integrity": "j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\favicon.ico",
+      "SourceId": "KaraokeApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\",
+      "BasePath": "_content/KaraokeApp",
+      "RelativePath": "favicon#[.{fingerprint}]?.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "61n19gt1b8",
+      "Integrity": "Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\AwitifyIcon.png",
+      "SourceId": "KaraokeApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\",
+      "BasePath": "_content/KaraokeApp",
+      "RelativePath": "image/AwitifyIcon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l7mdq8q2ga",
+      "Integrity": "T7TaTXV2Jiu+tFBXrXRD2BQ0XT1HePfLqRmanX6xVmw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\AwitifyIcon.png"
+    },
+    {
+      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\AwitifyLogo.png",
+      "SourceId": "KaraokeApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\",
+      "BasePath": "_content/KaraokeApp",
+      "RelativePath": "image/AwitifyLogo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eee47nbeo6",
+      "Integrity": "Gou3GkCW0RzCDi9WX0cJmcurwmCWEzI+xAEYn4crtQE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\AwitifyLogo.png"
+    },
+    {
+      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\Header.png",
+      "SourceId": "KaraokeApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\",
+      "BasePath": "_content/KaraokeApp",
+      "RelativePath": "image/Header#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c32m1t8apc",
+      "Integrity": "GOkNhDESlaFht9fng5DhAG/9z7LULfU/6vpxL9q2EL0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\Header.png"
+    },
+    {
+      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\LandingPage.png",
+      "SourceId": "KaraokeApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\",
+      "BasePath": "_content/KaraokeApp",
+      "RelativePath": "image/LandingPage#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fxry9gx2sv",
+      "Integrity": "HcUAYEbdhQuKMqCg/hb3pTvTnyt2is1t3k++C7TJg4Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\LandingPage.png"
+    },
+    {
+      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\LoginLogo.png",
+      "SourceId": "KaraokeApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\",
+      "BasePath": "_content/KaraokeApp",
+      "RelativePath": "image/LoginLogo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iqugehfrtx",
+      "Integrity": "Zp6UTXbKyF+DSkjsP8w18S/QV5KKX79/CeZ4xoGRXDU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\LoginLogo.png"
+    },
+    {
+      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\LoginPage.png",
+      "SourceId": "KaraokeApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\",
+      "BasePath": "_content/KaraokeApp",
+      "RelativePath": "image/LoginPage#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8cyuf8aaeq",
+      "Integrity": "WLhGUYvNHvMViUAM6yWpeQwSiwj6zq9kvBLXlAzDW/U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\LoginPage.png"
+    },
+    {
+      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\RegisterLogo.png",
+      "SourceId": "KaraokeApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\",
+      "BasePath": "_content/KaraokeApp",
+      "RelativePath": "image/RegisterLogo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f87ltobv4a",
+      "Integrity": "Idt++Nh88pzOzg+aQogYFWeuiWT2o3vQGUJl98djVfg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\RegisterLogo.png"
+    },
+    {
+      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\RegisterPage.png",
+      "SourceId": "KaraokeApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\",
+      "BasePath": "_content/KaraokeApp",
+      "RelativePath": "image/RegisterPage#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1lsebyszuk",
+      "Integrity": "y0Srp64GO1DaOvvLkzisG1hUk5AuyL3aMF7rJnZVfqI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\RegisterPage.png"
+    },
+    {
+      "Identity": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\js\\site.js",
+      "SourceId": "KaraokeApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\",
+      "BasePath": "_content/KaraokeApp",
+      "RelativePath": "js/site#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xtxxf3hu2r",
+      "Integrity": "hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/site.b9sayid5wm.css",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\ygmaqczr18-b9sayid5wm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003134796238"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "318"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b9sayid5wm"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.b9sayid5wm.css",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "667"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b9sayid5wm"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.b9sayid5wm.css.gz",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\ygmaqczr18-b9sayid5wm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "318"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b9sayid5wm"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\ygmaqczr18-b9sayid5wm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003134796238"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "318"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "667"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\ygmaqczr18-b9sayid5wm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "318"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.61n19gt1b8.ico",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\za0d7ieyez-61n19gt1b8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000405022276"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2468"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "61n19gt1b8"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.61n19gt1b8.ico",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "61n19gt1b8"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.61n19gt1b8.ico.gz",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\za0d7ieyez-61n19gt1b8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2468"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "61n19gt1b8"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ico",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\za0d7ieyez-61n19gt1b8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000405022276"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2468"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ico",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ico.gz",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\za0d7ieyez-61n19gt1b8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2468"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0="
+        }
+      ]
+    },
+    {
+      "Route": "image/AwitifyIcon.l7mdq8q2ga.png",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\AwitifyIcon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28342"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T7TaTXV2Jiu+tFBXrXRD2BQ0XT1HePfLqRmanX6xVmw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l7mdq8q2ga"
+        },
+        {
+          "Name": "label",
+          "Value": "image/AwitifyIcon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-T7TaTXV2Jiu+tFBXrXRD2BQ0XT1HePfLqRmanX6xVmw="
+        }
+      ]
+    },
+    {
+      "Route": "image/AwitifyIcon.png",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\AwitifyIcon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28342"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T7TaTXV2Jiu+tFBXrXRD2BQ0XT1HePfLqRmanX6xVmw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-T7TaTXV2Jiu+tFBXrXRD2BQ0XT1HePfLqRmanX6xVmw="
+        }
+      ]
+    },
+    {
+      "Route": "image/AwitifyLogo.eee47nbeo6.png",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\AwitifyLogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "548763"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gou3GkCW0RzCDi9WX0cJmcurwmCWEzI+xAEYn4crtQE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eee47nbeo6"
+        },
+        {
+          "Name": "label",
+          "Value": "image/AwitifyLogo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Gou3GkCW0RzCDi9WX0cJmcurwmCWEzI+xAEYn4crtQE="
+        }
+      ]
+    },
+    {
+      "Route": "image/AwitifyLogo.png",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\AwitifyLogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "548763"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Gou3GkCW0RzCDi9WX0cJmcurwmCWEzI+xAEYn4crtQE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Gou3GkCW0RzCDi9WX0cJmcurwmCWEzI+xAEYn4crtQE="
+        }
+      ]
+    },
+    {
+      "Route": "image/Header.c32m1t8apc.png",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\Header.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20600"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GOkNhDESlaFht9fng5DhAG/9z7LULfU/6vpxL9q2EL0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c32m1t8apc"
+        },
+        {
+          "Name": "label",
+          "Value": "image/Header.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GOkNhDESlaFht9fng5DhAG/9z7LULfU/6vpxL9q2EL0="
+        }
+      ]
+    },
+    {
+      "Route": "image/Header.png",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\Header.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20600"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GOkNhDESlaFht9fng5DhAG/9z7LULfU/6vpxL9q2EL0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GOkNhDESlaFht9fng5DhAG/9z7LULfU/6vpxL9q2EL0="
+        }
+      ]
+    },
+    {
+      "Route": "image/LandingPage.fxry9gx2sv.png",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\LandingPage.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "361791"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HcUAYEbdhQuKMqCg/hb3pTvTnyt2is1t3k++C7TJg4Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fxry9gx2sv"
+        },
+        {
+          "Name": "label",
+          "Value": "image/LandingPage.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HcUAYEbdhQuKMqCg/hb3pTvTnyt2is1t3k++C7TJg4Y="
+        }
+      ]
+    },
+    {
+      "Route": "image/LandingPage.png",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\LandingPage.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "361791"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HcUAYEbdhQuKMqCg/hb3pTvTnyt2is1t3k++C7TJg4Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HcUAYEbdhQuKMqCg/hb3pTvTnyt2is1t3k++C7TJg4Y="
+        }
+      ]
+    },
+    {
+      "Route": "image/LoginLogo.iqugehfrtx.png",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\LoginLogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "338862"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zp6UTXbKyF+DSkjsP8w18S/QV5KKX79/CeZ4xoGRXDU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iqugehfrtx"
+        },
+        {
+          "Name": "label",
+          "Value": "image/LoginLogo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zp6UTXbKyF+DSkjsP8w18S/QV5KKX79/CeZ4xoGRXDU="
+        }
+      ]
+    },
+    {
+      "Route": "image/LoginLogo.png",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\LoginLogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "338862"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zp6UTXbKyF+DSkjsP8w18S/QV5KKX79/CeZ4xoGRXDU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zp6UTXbKyF+DSkjsP8w18S/QV5KKX79/CeZ4xoGRXDU="
+        }
+      ]
+    },
+    {
+      "Route": "image/LoginPage.8cyuf8aaeq.png",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\LoginPage.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "254043"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WLhGUYvNHvMViUAM6yWpeQwSiwj6zq9kvBLXlAzDW/U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8cyuf8aaeq"
+        },
+        {
+          "Name": "label",
+          "Value": "image/LoginPage.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WLhGUYvNHvMViUAM6yWpeQwSiwj6zq9kvBLXlAzDW/U="
+        }
+      ]
+    },
+    {
+      "Route": "image/LoginPage.png",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\LoginPage.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "254043"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WLhGUYvNHvMViUAM6yWpeQwSiwj6zq9kvBLXlAzDW/U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WLhGUYvNHvMViUAM6yWpeQwSiwj6zq9kvBLXlAzDW/U="
+        }
+      ]
+    },
+    {
+      "Route": "image/RegisterLogo.f87ltobv4a.png",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\RegisterLogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "472231"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Idt++Nh88pzOzg+aQogYFWeuiWT2o3vQGUJl98djVfg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f87ltobv4a"
+        },
+        {
+          "Name": "label",
+          "Value": "image/RegisterLogo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Idt++Nh88pzOzg+aQogYFWeuiWT2o3vQGUJl98djVfg="
+        }
+      ]
+    },
+    {
+      "Route": "image/RegisterLogo.png",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\RegisterLogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "472231"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Idt++Nh88pzOzg+aQogYFWeuiWT2o3vQGUJl98djVfg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Idt++Nh88pzOzg+aQogYFWeuiWT2o3vQGUJl98djVfg="
+        }
+      ]
+    },
+    {
+      "Route": "image/RegisterPage.1lsebyszuk.png",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\RegisterPage.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "254300"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y0Srp64GO1DaOvvLkzisG1hUk5AuyL3aMF7rJnZVfqI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1lsebyszuk"
+        },
+        {
+          "Name": "label",
+          "Value": "image/RegisterPage.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y0Srp64GO1DaOvvLkzisG1hUk5AuyL3aMF7rJnZVfqI="
+        }
+      ]
+    },
+    {
+      "Route": "image/RegisterPage.png",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\image\\RegisterPage.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "254300"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y0Srp64GO1DaOvvLkzisG1hUk5AuyL3aMF7rJnZVfqI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 20:59:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y0Srp64GO1DaOvvLkzisG1hUk5AuyL3aMF7rJnZVfqI="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\z2q2kzeqzq-xtxxf3hu2r.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.005263157895"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "189"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ydq7YvQUzhbo68waLZeQvZnPOvmTeQ+HyDqjkA1whsA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 20:59:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "231"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 20:59:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js.gz",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\z2q2kzeqzq-xtxxf3hu2r.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "189"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ydq7YvQUzhbo68waLZeQvZnPOvmTeQ+HyDqjkA1whsA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 20:59:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ydq7YvQUzhbo68waLZeQvZnPOvmTeQ+HyDqjkA1whsA="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.xtxxf3hu2r.js",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\z2q2kzeqzq-xtxxf3hu2r.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.005263157895"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "189"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ydq7YvQUzhbo68waLZeQvZnPOvmTeQ+HyDqjkA1whsA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 20:59:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xtxxf3hu2r"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.xtxxf3hu2r.js",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "231"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 20:59:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xtxxf3hu2r"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.xtxxf3hu2r.js.gz",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\z2q2kzeqzq-xtxxf3hu2r.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "189"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ydq7YvQUzhbo68waLZeQvZnPOvmTeQ+HyDqjkA1whsA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 20:59:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xtxxf3hu2r"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ydq7YvQUzhbo68waLZeQvZnPOvmTeQ+HyDqjkA1whsA="
+        }
+      ]
+    },
+    {
+      "Route": "KaraokeApp.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\uekzt3cqwj-sbp3dbxltu.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001721170396"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "580"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t3GopoO+TU8e75U9pIFd7i0hgorjGCKvdXDubn4MKaw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 10:40:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"+CuW/WTImYUCMpRzMZKwyY62opFT1OII4mr2rSJfXIE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+CuW/WTImYUCMpRzMZKwyY62opFT1OII4mr2rSJfXIE="
+        }
+      ]
+    },
+    {
+      "Route": "KaraokeApp.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\KaraokeApp.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1332"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+CuW/WTImYUCMpRzMZKwyY62opFT1OII4mr2rSJfXIE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 10:40:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+CuW/WTImYUCMpRzMZKwyY62opFT1OII4mr2rSJfXIE="
+        }
+      ]
+    },
+    {
+      "Route": "KaraokeApp.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\uekzt3cqwj-sbp3dbxltu.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "580"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t3GopoO+TU8e75U9pIFd7i0hgorjGCKvdXDubn4MKaw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 10:40:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t3GopoO+TU8e75U9pIFd7i0hgorjGCKvdXDubn4MKaw="
+        }
+      ]
+    },
+    {
+      "Route": "KaraokeApp.sbp3dbxltu.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\uekzt3cqwj-sbp3dbxltu.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001721170396"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "580"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t3GopoO+TU8e75U9pIFd7i0hgorjGCKvdXDubn4MKaw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 10:40:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"+CuW/WTImYUCMpRzMZKwyY62opFT1OII4mr2rSJfXIE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sbp3dbxltu"
+        },
+        {
+          "Name": "label",
+          "Value": "KaraokeApp.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+CuW/WTImYUCMpRzMZKwyY62opFT1OII4mr2rSJfXIE="
+        }
+      ]
+    },
+    {
+      "Route": "KaraokeApp.sbp3dbxltu.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\KaraokeApp.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1332"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+CuW/WTImYUCMpRzMZKwyY62opFT1OII4mr2rSJfXIE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 10:40:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sbp3dbxltu"
+        },
+        {
+          "Name": "label",
+          "Value": "KaraokeApp.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+CuW/WTImYUCMpRzMZKwyY62opFT1OII4mr2rSJfXIE="
+        }
+      ]
+    },
+    {
+      "Route": "KaraokeApp.sbp3dbxltu.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\uekzt3cqwj-sbp3dbxltu.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "580"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t3GopoO+TU8e75U9pIFd7i0hgorjGCKvdXDubn4MKaw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 10:40:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sbp3dbxltu"
+        },
+        {
+          "Name": "label",
+          "Value": "KaraokeApp.bundle.scp.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t3GopoO+TU8e75U9pIFd7i0hgorjGCKvdXDubn4MKaw="
+        }
+      ]
+    },
+    {
+      "Route": "KaraokeApp.sbp3dbxltu.styles.css",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\vq2nrul6kt-sbp3dbxltu.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001721170396"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "580"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t3GopoO+TU8e75U9pIFd7i0hgorjGCKvdXDubn4MKaw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 10:40:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"+CuW/WTImYUCMpRzMZKwyY62opFT1OII4mr2rSJfXIE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sbp3dbxltu"
+        },
+        {
+          "Name": "label",
+          "Value": "KaraokeApp.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+CuW/WTImYUCMpRzMZKwyY62opFT1OII4mr2rSJfXIE="
+        }
+      ]
+    },
+    {
+      "Route": "KaraokeApp.sbp3dbxltu.styles.css",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\scopedcss\\bundle\\KaraokeApp.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1332"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+CuW/WTImYUCMpRzMZKwyY62opFT1OII4mr2rSJfXIE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 10:40:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sbp3dbxltu"
+        },
+        {
+          "Name": "label",
+          "Value": "KaraokeApp.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+CuW/WTImYUCMpRzMZKwyY62opFT1OII4mr2rSJfXIE="
+        }
+      ]
+    },
+    {
+      "Route": "KaraokeApp.sbp3dbxltu.styles.css.gz",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\vq2nrul6kt-sbp3dbxltu.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "580"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t3GopoO+TU8e75U9pIFd7i0hgorjGCKvdXDubn4MKaw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 10:40:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sbp3dbxltu"
+        },
+        {
+          "Name": "label",
+          "Value": "KaraokeApp.styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t3GopoO+TU8e75U9pIFd7i0hgorjGCKvdXDubn4MKaw="
+        }
+      ]
+    },
+    {
+      "Route": "KaraokeApp.styles.css",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\vq2nrul6kt-sbp3dbxltu.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001721170396"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "580"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t3GopoO+TU8e75U9pIFd7i0hgorjGCKvdXDubn4MKaw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 10:40:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"+CuW/WTImYUCMpRzMZKwyY62opFT1OII4mr2rSJfXIE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+CuW/WTImYUCMpRzMZKwyY62opFT1OII4mr2rSJfXIE="
+        }
+      ]
+    },
+    {
+      "Route": "KaraokeApp.styles.css",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\scopedcss\\bundle\\KaraokeApp.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1332"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+CuW/WTImYUCMpRzMZKwyY62opFT1OII4mr2rSJfXIE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 10:40:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+CuW/WTImYUCMpRzMZKwyY62opFT1OII4mr2rSJfXIE="
+        }
+      ]
+    },
+    {
+      "Route": "KaraokeApp.styles.css.gz",
+      "AssetFile": "C:\\Users\\Mariella Prado\\OneDrive\\Documents\\Visual Studio 2022\\C#\\Awitify-main\\obj\\Debug\\net9.0\\compressed\\vq2nrul6kt-sbp3dbxltu.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "580"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t3GopoO+TU8e75U9pIFd7i0hgorjGCKvdXDubn4MKaw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 10:40:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t3GopoO+TU8e75U9pIFd7i0hgorjGCKvdXDubn4MKaw="
+        }
+      ]
+    }
+  ]
+}
