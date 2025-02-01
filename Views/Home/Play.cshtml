@@ -1,8 +1,10 @@
 @using KaraokeApp.Controllers
+@Html.Partial("_Header")
 @{
     ViewData["Title"] = "Play Video";
     var queue = ViewBag.Queue as List<QueueItem> ?? new List<QueueItem>();
 }
+
 
 <div class="container">
     <h1 class="text-center mb-4">Now Playing</h1>
@@ -13,90 +15,205 @@
             <div class="video-container mb-4">
                 <div id="player"></div>
             </div>
-
-            <!-- Queue Section -->
-            <div id="queueContainer" class="mt-4">
-                <h3>Queue (<span id="queueCount">@queue.Count</span>/10)</h3>
-                <div id="queueList">
-                    @foreach (var item in queue)
-                    {
-                        <div class="queue-item" id="queue-item-@item.VideoId">
-                            <p><strong>@item.Title</strong></p>
-                            <div class="btn-group">
-                                <button onclick="playNow('@item.VideoId')" class="btn btn-primary btn-sm me-2">Play Now</button>
-                                <button onclick="removeFromQueue('@item.VideoId')" class="btn btn-danger btn-sm">Remove</button>
-                            </div>
-                        </div>
-                    }
-                    @if (!queue.Any())
-                    {
-                        <p id="emptyQueueMessage">Your queue is empty.</p>
-                    }
-                </div>
-            </div>
         </div>
 
-        <!-- Search Column -->
+        <!-- Queue and Search Section (Combined) -->
         <div class="col-md-4">
-            <div class="search-container">
-                <form id="searchForm" class="mb-3">
-                    @Html.AntiForgeryToken()
-                    <div class="input-group">
-                        <input type="text" 
-                               id="searchQuery" 
-                               class="form-control" 
-                               placeholder="Search for videos" 
-                               required />
-                        <button type="submit" class="btn btn-primary">Search</button>
+            <div class="queue-search-container">
+                <!-- Queue Section -->
+                <div id="queueContainer" class="mt-4">
+                    <h3>Queue (<span id="queueCount">@queue.Count</span>/10)</h3>
+                    <div id="queueList">
+                        @foreach (var item in queue)
+                        {
+                            <div class="queue-item" id="queue-item-@item.VideoId">
+                                <p><strong>@item.Title</strong></p>
+                                <div class="btn-group">
+                                    <button onclick="playNow('@item.VideoId')" class="btn btn-primary btn-sm me-2">Play Now</button>
+                                    <button onclick="removeFromQueue('@item.VideoId')" class="btn btn-danger btn-sm">Remove</button>
+                                </div>
+                            </div>
+                        }
+                        @if (!queue.Any())
+                        {
+                            <p id="emptyQueueMessage">Your queue is empty.</p>
+                        }
                     </div>
-                </form>
+                </div>
 
-                <div id="searchResults" class="mt-3">
-                    <p>Use the search bar above to find videos.</p>
+                <!-- Search Section -->
+                <div class="search-container">
+                    <form id="searchForm" class="mb-3">
+                        @Html.AntiForgeryToken()
+                        <div class="input-group">
+                            <input type="text" 
+                                   id="searchQuery" 
+                                   class="form-control" 
+                                   placeholder="Search for videos" 
+                                   required />
+                            <button type="submit" class="btn btn-primary">Search</button>
+                        </div>
+                    </form>
+
+                    <div id="searchResults" class="mt-3">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
+
+
 <style>
     .video-container {
         position: relative;
         width: 100%;
+        max-width: 800px;
+        height: 30vh;
         background: #f8f9fa;
         border-radius: 8px;
         overflow: hidden;
+        z-index: 1000;
+        padding-bottom: 30%;
+        margin-top: 20px;
+        margin-bottom: 50px;
     }
 
-    .search-container {
-        background: #f8f9fa;
+    #videoFrame {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .col-md-8 {
+        flex: 1 1 50%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .col-md-4 {
+        flex: 1 1 50%;
+    }
+
+    .queue-search-container {
+        margin-top: 20px;
+        border-radius: 8px;
+        margin-left: 5px;
+        display: flex;
+        background: #ffffffe1;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        z-index: 1001;
+        position: relative;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+    }
+
+    .search-container, .queue-item {
+        background: #006D75;
         padding: 15px;
         border-radius: 8px;
     }
 
+    #searchQuery {
+    border-radius: 25px; /* Rounded sides */
+    padding: 8px 16px; /* Adjust padding for better spacing */
+    width: 100%;
+    border: 2px solid #40aa5a00; /* Green border */
+    font-size: 16px;
+    background-color: #f8f9fa; /* Light background for input */
+}
+
+#searchQuery:focus {
+    border-color: #20983e; /* Darker green for focus */
+    box-shadow: 0 0 5px rgba(32, 152, 62, 0.5); /* Green glow */
+    background-color: #ffffff; /* Brighter background on focus */
+}
+
+.btn-primary {
+    border-radius: 25px; /* Rounded sides */
+    background-color: #40AA5B; /* Green button */
+    border-color: #20983e; /* Darker green border */
+    color: white; /* White text */
+    padding: 8px 16px; /* Adjust padding for consistency */
+}
+
+.btn-primary:hover {
+    background-color: #328a44; /* Slightly darker green for hover */
+    border-color: #20983e; /* Consistent border */
+}
+
+
+    .btn-danger {
+        background-color: #d9534f; /* Red for Remove */
+        border-color: #d43f3a;
+        color: white;
+    }
+
+    .btn-danger:hover {
+        background-color: #c9302c; /* Darker red for hover */
+        border-color: #ac2925;
+    }
+
+    /* Ensure the buttons are the same size */
+.btn-sm {
+    padding: 8px 16px; /* Same padding for both buttons */
+    font-size: 14px; /* Uniform font size */
+    border-radius: 25px; /* Rounded corners for consistency */
+}
+
+.btn-group button {
+    width: 100%; /* Ensure buttons in the group are the same width */
+}
+
+
+    .me-2 {
+        margin-right: 8px; /* Adds spacing between buttons */
+    }
+
+    .input-group {
+        display: flex;
+        width: 100%;
+        max-width: 800px;
+        gap: 10px;
+    }
+
     .queue-item {
-        background: white;
-        padding: 10px;
-        margin-bottom: 10px;
-        border-radius: 4px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-    }
-
-    .search-result {
-        background: white;
-        padding: 10px;
-        margin-bottom: 10px;
-        border-radius: 4px;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        margin-bottom: 15px; /* Add space between queue items */
+        color: white
     }
 
     .queue-item p {
         margin: 0;
         flex-grow: 1;
         margin-right: 10px;
+    }
+
+    .centered-heading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    /* Scrollable Search Results */
+    #searchResults {
+        max-height: 300px; /* Adjust height based on your needs */
+        overflow-y: auto;  /* Enables vertical scrolling */
+        padding-right: 15px; /* Prevents content from being cut off */
     }
 </style>
 
@@ -343,7 +460,7 @@
             const query = document.getElementById('searchQuery').value.trim();
             if (query) {
                 document.getElementById('searchResults').innerHTML = 
-                    '<p class="text-muted">Searching...</p>';
+                     '<p class="text-muted" style="color: white;">Searching...</p>';
                 await performSearch(query);
             }
         });
