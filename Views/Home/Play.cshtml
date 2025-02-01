@@ -4,13 +4,6 @@
     var queue = ViewBag.Queue as List<QueueItem> ?? new List<QueueItem>();
 }
 
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
-</head>
-
 <div class="container">
     <h1 class="text-center mb-4">Now Playing</h1>
 
@@ -18,9 +11,7 @@
         <!-- Video Player Column -->
         <div class="col-md-8">
             <div class="video-container mb-4">
-                <div class="video-container mb-4">
-                    <div id="player"></div>
-                </div>
+                <div id="player"></div>
             </div>
 
             <!-- Queue Section -->
@@ -112,29 +103,34 @@
 @section Scripts {
     <script src="https://www.youtube.com/iframe_api"></script>
     <script>
-        window.onpopstate = function(event) {
-            window.location.href = '@Url.Action("HomePage", "Home")';
-        };
-
         const maxQueueSize = 10;
         let player;
         const currentVideoId = '@ViewBag.VideoId';
 
         // YouTube Player Initialization
         function onYouTubeIframeAPIReady() {
-            player = new YT.Player('player', {
-                height: '450',
-                width: '100%',
-                videoId: currentVideoId,
-                playerVars: {
-                    'autoplay': 1,
-                    'enablejsapi': 1
-                },
-                events: {
-                    'onReady': onPlayerReady,
-                    'onStateChange': onPlayerStateChange
-                }
-            });
+            if (player) {
+                player.destroy(); 
+            }
+
+            if (document.getElementById('player')) {
+                player = new YT.Player('player', {
+                    height: '450',
+                    width: '100%',
+                    videoId: currentVideoId,
+                    playerVars: {
+                        'autoplay': 1,
+                        'enablejsapi': 1
+                    },
+                    events: {
+                        'onReady': onPlayerReady,
+                        'onStateChange': onPlayerStateChange
+                    }
+                });
+            }
+            else {
+                console.log("No player div!");
+            }
         }
 
         function onPlayerReady(event) {
@@ -243,6 +239,20 @@
             console.log('Initializing queue refresh'); // Debug log
             refreshQueue(); // Initial queue load
             setInterval(refreshQueue, 30000); // Refresh every 30 seconds
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            if (typeof YT !== 'undefined' && YT.Player) {
+                onYouTubeIframeAPIReady();
+            } else {
+                const script = document.createElement('script');
+                script.src = "https://www.youtube.com/iframe_api";
+                document.body.appendChild(script);
+            }
+        });
+
+        window.addEventListener('pageshow', function () {
+            onYouTubeIframeAPIReady();
         });
 
         // Remove from Queue function
