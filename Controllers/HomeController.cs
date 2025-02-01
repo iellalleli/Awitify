@@ -16,7 +16,7 @@ namespace KaraokeApp.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private const string QUEUE_KEY = "VideoQueue";
-        private const string API_KEY = "AIzaSyDl29-Jc3WVYWb0uOpv3r3KYCHxUotjfCc";
+        private const string API_KEY = "AIzaSyCPqh9SBtoYRujMzTUxqKF6O0Bkw3Z9MGc";
 
         public HomeController(ILogger<HomeController> logger)
         {
@@ -53,7 +53,37 @@ namespace KaraokeApp.Controllers
             return View("HomePage");
         }
 
-        public async Task<IActionResult> HomePage()
+        public async Task<IActionResult> HomePage(string query)
+        {
+            ViewBag.RecommendedVideos = await GetRecommendedVideos();
+
+            if (!string.IsNullOrEmpty(query))
+            {
+                var youtubeService = new YouTubeService(new BaseClientService.Initializer()
+                {
+                    ApiKey = API_KEY
+                });
+
+                var searchRequest = youtubeService.Search.List("snippet");
+                searchRequest.Q = query + " karaoke";
+                searchRequest.MaxResults = 10;
+                searchRequest.Type = "video";
+
+                var searchResponse = await searchRequest.ExecuteAsync();
+                ViewBag.Videos = searchResponse.Items
+                    .Where(item => item.Id.Kind == "youtube#video")
+                    .Select(item => new
+                    {
+                        Title = item.Snippet.Title,
+                        VideoId = item.Id.VideoId
+                    })
+                    .ToList();
+            }
+
+            return View();
+        }
+
+        private async Task<List<VideoItem>> GetRecommendedVideos()
         {
             var youtubeService = new YouTubeService(new BaseClientService.Initializer()
             {
@@ -66,22 +96,25 @@ namespace KaraokeApp.Controllers
             searchRequest.Type = "video";
 
             var searchResponse = await searchRequest.ExecuteAsync();
-
-            var recommendedVideos = searchResponse.Items
+            return searchResponse.Items
                 .Where(item => item.Id.Kind == "youtube#video")
-                .Select(item => new
+                .Select(item => new VideoItem
                 {
                     Title = item.Snippet.Title,
                     VideoId = item.Id.VideoId
                 })
                 .ToList();
-
-            ViewBag.RecommendedVideos = recommendedVideos;
-            return View();
         }
 
         public IActionResult Play(string videoId)
         {
+            // TempData["ReturnUrl"] = Request.Headers["Referer"].ToString();
+
+            if (string.IsNullOrEmpty(videoId))
+            {
+                return RedirectToAction("HomePage");
+            }
+
             var queue = HttpContext.Session.Get<List<QueueItem>>(QUEUE_KEY) ?? new List<QueueItem>();
             _logger.LogInformation($"Current queue count in Play action: {queue.Count}");
 

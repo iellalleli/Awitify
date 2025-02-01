@@ -4,6 +4,13 @@
     var queue = ViewBag.Queue as List<QueueItem> ?? new List<QueueItem>();
 }
 
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+</head>
+
 <div class="container">
     <h1 class="text-center mb-4">Now Playing</h1>
 
@@ -105,6 +112,10 @@
 @section Scripts {
     <script src="https://www.youtube.com/iframe_api"></script>
     <script>
+        window.onpopstate = function(event) {
+            window.location.href = '@Url.Action("HomePage", "Home")';
+        };
+
         const maxQueueSize = 10;
         let player;
         const currentVideoId = '@ViewBag.VideoId';

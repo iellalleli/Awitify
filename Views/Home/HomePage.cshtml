@@ -4,7 +4,7 @@
 }
 
 <!-- Search Bar -->
-<form method="post" asp-action="Search" class="search-bar d-flex justify-content-center align-items-center mb-4" style="margin-top: 20vh;">
+<form method="POST" asp-controller="Home" asp-action="HomePage" class="search-bar d-flex justify-content-center align-items-center mb-4" style="margin-top: 20vh;">
     <input type="text" name="query" placeholder="Search for karaoke songs..." required class="form-control search-input" />
     <button type="submit" class="btn btn-primary">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -24,7 +24,7 @@
                 @foreach (var video in ViewBag.RecommendedVideos)
                 {
                     <div class="suggestion-item">
-                        <a href="#" onclick="showVideo('@video.VideoId')">@video.Title</a>
+                        <p onclick="showVideo('@video.VideoId')">@video.Title</p>
                     </div>
                 }
             }
@@ -38,15 +38,11 @@
     <div class="results-container text-left">
         @foreach (var video in ViewBag.Videos)
         {
-            <div class="result-item">
-                <a href="#" onclick="showVideo('@video.VideoId')">
-                    <div class="result-thumbnail">
-                        <img src="https://img.youtube.com/vi/@video.VideoId/maxresdefault.jpg" alt="@video.Title" />
-                    </div>
-                </a>
-                <div class="result-title">
-                    @video.Title
+            <div class="result-item" onclick="navigateToPlay('@video.VideoId')">
+                <div class="result-thumbnail">
+                    <img src="https://img.youtube.com/vi/@video.VideoId/maxresdefault.jpg" alt="@video.Title" />
                 </div>
+                <div class="result-title">@video.Title</div>
             </div>
         }
     </div>
@@ -62,9 +58,17 @@
 
 <script>
     function showVideo(videoId) {
-        // Navigate to the Play page with the selected video
         window.location.href = `/Home/Play?videoId=${videoId}`;
     }
+
+    function navigateToPlay(videoId) {
+        history.pushState({ page: 'search' }, '', window.location.href);
+        window.location.href = '@Url.Action("Play", "Home")?videoId=' + videoId;
+    }
+
+    window.onpopstate = function(event) {
+        window.location.href = '@Url.Action("HomePage", "Home")';
+    };
 </script>
 
 <style>
@@ -182,6 +186,7 @@
     .result-item:hover {
         transform: translateY(-5px);
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        background-color: #f8f9fa;
     }
 
     .result-thumbnail {

@@ -59,6 +59,6 @@ app.Use(async (context, next) =>
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=LandingPage}/{action=Home}/{id?}");
+    pattern: "{controller=Home}/{action=HomePage}/{id?}");
 
 app.Run();
