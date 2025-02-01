@@ -1,16 +1,17 @@
 @model IEnumerable<dynamic>
 @using System.Web
 
-<h3>Search Results</h3>
+
+<h3 style="color: white;">Search Results</h3>
 @if (Model != null && Model.Any())
 {
     foreach (var result in Model)
     {
-        <div class="search-result mb-2">
-            <p><strong>@result.Title</strong></p>
-            <div class="btn-group">
-                <button onclick="playNow('@result.VideoId')" class="btn btn-primary btn-sm me-2">Play Now</button>
-                <button onclick="addToQueue('@result.VideoId', '@Html.Raw(System.Web.HttpUtility.JavaScriptStringEncode(result.Title))')" class="btn btn-success btn-sm">Add to Queue</button>
+        <div class="search-result mb-2" style="display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #ccc; padding: 10px 0; color: white;">
+            <p style="margin: 0; flex: 1;"><strong>@result.Title</strong></p>
+            <div style="display: flex; gap: 10px;">
+                <button onclick="playNow('@result.VideoId')" class="btn btn-sm" style="background-color: #40AA5B; color: white; padding: 5px 10px; border: none; border-radius: 10px;">Play Now</button>
+                <button onclick="addToQueue('@result.VideoId', '@Html.Raw(System.Web.HttpUtility.JavaScriptStringEncode(result.Title))')" class="btn btn-sm" style="background-color: grey; color: white; padding: 5px 10px; border: none; border-radius: 1px;">Add to Queue</button>
             </div>
         </div>
     }
