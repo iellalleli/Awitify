@@ -1,10 +1,10 @@
-﻿@{
+﻿﻿@{
     ViewData["Title"] = "Awitify";
     Layout = "~/Views/Shared/HomeLayout.cshtml";
 }
 
 <!-- Search Bar -->
-<form method="POST" asp-controller="Home" asp-action="HomePage" class="search-bar d-flex justify-content-center align-items-center mb-4" style="margin-top: 20vh;">
+<form method="post" asp-action="Search" class="search-bar d-flex justify-content-center align-items-center mb-4" style="margin-top: 20vh;">
     <input type="text" name="query" placeholder="Search for karaoke songs..." required class="form-control search-input" />
     <button type="submit" class="btn btn-primary">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -17,14 +17,20 @@
 @if (ViewBag.Videos == null || ViewBag.Videos.Count == 0)
 {
     <div class="suggestions-container text-center mt-4">
-        <h3>Recommended Karaoke Songs:</h3>
-        <div class="suggestions-box d-flex justify-content-center">
+        <div class="suggestions-box d-flex justify-content-center flex-wrap">
             @if (ViewBag.RecommendedVideos != null)
             {
                 @foreach (var video in ViewBag.RecommendedVideos)
                 {
                     <div class="suggestion-item">
-                        <p onclick="showVideo('@video.VideoId')">@video.Title</p>
+                        <a href="#" onclick="showVideo('@video.VideoId')">
+                            <div class="suggestion-thumbnail">
+                                <img src="https://img.youtube.com/vi/@video.VideoId/mqdefault.jpg" alt="@video.Title" />
+                            </div>
+                            <div class="suggestion-title">
+                                @video.Title
+                            </div>
+                        </a>
                     </div>
                 }
             }
@@ -32,17 +38,22 @@
     </div>
 }
 
+
 <!-- Search Results -->
 @if (ViewBag.Videos != null && ViewBag.Videos.Count > 0)
 {
     <div class="results-container text-left">
         @foreach (var video in ViewBag.Videos)
         {
-            <div class="result-item" onclick="navigateToPlay('@video.VideoId')">
-                <div class="result-thumbnail">
-                    <img src="https://img.youtube.com/vi/@video.VideoId/maxresdefault.jpg" alt="@video.Title" />
+            <div class="result-item">
+                <a href="#" onclick="showVideo('@video.VideoId')">
+                    <div class="result-thumbnail">
+                        <img src="https://img.youtube.com/vi/@video.VideoId/maxresdefault.jpg" alt="@video.Title" />
+                    </div>
+                </a>
+                <div class="result-title">
+                    @video.Title
                 </div>
-                <div class="result-title">@video.Title</div>
             </div>
         }
     </div>
@@ -72,22 +83,44 @@
 </script>
 
 <style>
-    .search-bar {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 391px;
-        height: 40px;
-        padding: 0 12px;
-        border-radius: 40px;
-        border: 2px solid rgb(255, 255, 255);
-        background-color: #ffffff !important;
-        font-family: Roboto, sans-serif;
-        font-size: 18px;
-        font-style: normal;
-        position: relative;
-        z-index: 9999;
-    }
+    html, body {
+    height: 100%;  /* Ensure full height for the page */
+    margin: 0;     /* Remove default margin */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;  /* Align the search bar to the top */
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 391px;
+    height: 40px;
+    padding: 0 12px;
+    border-radius: 40px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #ffffff !important;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    position: absolute;
+    top: 2px;   /* Adjust the distance from the top */
+    left: 50%;   /* Center horizontally */
+    transform: translateX(-50%);  /* Offset to exactly center */
+    z-index: 9999;
+}
+
+
+.parent-container {
+    display: flex;
+    justify-content: center;  /* Centers the search bar horizontally */
+    align-items: flex-start;  /* Aligns the search bar at the top */
+    height: 100%;             /* Ensures the parent takes full height of the page */
+}
+
+
+
 
     .search-bar input {
         flex: 1;
@@ -129,40 +162,66 @@
     }
 
     .suggestions-container {
-        margin-top: 20px;
-    }
+    margin-top: 220px; /* You can adjust this value to move the suggestions down further */
+}
 
     .suggestions-box {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-    }
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to the next line */
+    justify-content: center;
+    gap: 20px;
+    max-width: 900px; /* Slightly wider container for larger items */
+    margin: 0 auto; /* Center align the suggestions */
+}
 
-    .suggestion-item {
-        background-color: #f1f1f1;
-        padding: 15px;
-        border-radius: 10px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        text-align: center;
-        transition: transform 0.3s ease;
-    }
+.suggestion-item {
+    background-color: #f9f9f9;
+    padding: 15px; /* Increased padding for more space */
+    border-radius: 12px; /* Slightly larger border-radius */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 200px; /* Increased width for larger items */
+}
 
-    .suggestion-item a {
-        font-size: 18px;
-        color: #007bff;
-        text-decoration: none;
-    }
+.suggestion-item a {
+    text-decoration: none;
+    color: inherit;
+}
 
-    .suggestion-item a:hover {
-        text-decoration: underline;
-    }
+.suggestion-item a:hover .suggestion-title {
+    color: #0056b3;
+}
 
-    .suggestion-item:hover {
-        transform: translateY(-5px);
-    }
+.suggestion-item:hover {
+    transform: translateY(-5px);
+}
 
+.suggestion-thumbnail {
+    width: 180px; /* Increased thumbnail size */
+    height: 100px; /* Proportional height for the thumbnail */
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 12px; /* Adjusted spacing below the thumbnail */
+}
+
+.suggestion-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.suggestion-title {
+    font-size: 18px; /* Larger font size for titles */
+    font-weight: bold;
+    color: #333;
+    word-wrap: break-word; /* Allow text to wrap onto multiple lines */
+    white-space: normal; /* Allow the text to break and wrap naturally */
+    line-height: 1.5; /* Better line spacing for wrapped text */
+    word-break: break-word; /* Ensure long words break if needed */
+}
     .results-container {
-        margin-top: 30px;
+        margin-top: 220px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -186,7 +245,6 @@
     .result-item:hover {
         transform: translateY(-5px);
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        background-color: #f8f9fa;
     }
 
     .result-thumbnail {
