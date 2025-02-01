@@ -115,44 +115,49 @@
         border-radius: 8px;
         margin-left: 5px;
         display: flex;
-        background: #d8d8d8;
+        background: #ffffffe1;
         flex-direction: column;
         gap: 20px;
         padding: 20px;
         z-index: 1001;
         position: relative;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
     }
 
     .search-container, .queue-item {
-        background: #f8f9fa;
+        background: #006D75;
         padding: 15px;
         border-radius: 8px;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     }
 
     #searchQuery {
-        border-radius: 50px;
-        padding: 8px 2px;
-        width: 100%;
-        border: 2px solid #787878;
-        font-size: 16px;
-    }
+    border-radius: 25px; /* Rounded sides */
+    padding: 8px 16px; /* Adjust padding for better spacing */
+    width: 100%;
+    border: 2px solid #40aa5a00; /* Green border */
+    font-size: 16px;
+    background-color: #f8f9fa; /* Light background for input */
+}
 
-    #searchQuery:focus {
-        border-color: #007bff;
-        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
-    }
+#searchQuery:focus {
+    border-color: #20983e; /* Darker green for focus */
+    box-shadow: 0 0 5px rgba(32, 152, 62, 0.5); /* Green glow */
+    background-color: #ffffff; /* Brighter background on focus */
+}
 
-    btn-primary {
-        background-color: #20983e; /* Green for Play Now */
-        border-color: #40AA5B;
-        color: white;
-    }
+.btn-primary {
+    border-radius: 25px; /* Rounded sides */
+    background-color: #40AA5B; /* Green button */
+    border-color: #20983e; /* Darker green border */
+    color: white; /* White text */
+    padding: 8px 16px; /* Adjust padding for consistency */
+}
 
-    .btn-primary:hover {
-        background-color: #328a44; /* Slightly darker green */
-        border-color: #328a44;
-    }
+.btn-primary:hover {
+    background-color: #328a44; /* Slightly darker green for hover */
+    border-color: #20983e; /* Consistent border */
+}
+
 
     .btn-danger {
         background-color: #d9534f; /* Red for Remove */
@@ -165,11 +170,17 @@
         border-color: #ac2925;
     }
 
-    .btn-sm {
-        padding: 8px 15px; /* Adjust for smaller buttons */
-        font-size: 14px;
-        border-radius: 25px;
-    }
+    /* Ensure the buttons are the same size */
+.btn-sm {
+    padding: 8px 16px; /* Same padding for both buttons */
+    font-size: 14px; /* Uniform font size */
+    border-radius: 25px; /* Rounded corners for consistency */
+}
+
+.btn-group button {
+    width: 100%; /* Ensure buttons in the group are the same width */
+}
+
 
     .me-2 {
         margin-right: 8px; /* Adds spacing between buttons */
@@ -186,6 +197,8 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin-bottom: 15px; /* Add space between queue items */
+        color: white
     }
 
     .queue-item p {
@@ -376,7 +389,7 @@
             const query = document.getElementById('searchQuery').value.trim();
             if (query) {
                 document.getElementById('searchResults').innerHTML = 
-                    '<p class="text-muted">Searching...</p>';
+                    '<p class="text-muted" style="color: white;">Searching...</p>';
                 await performSearch(query);
             }
         });
