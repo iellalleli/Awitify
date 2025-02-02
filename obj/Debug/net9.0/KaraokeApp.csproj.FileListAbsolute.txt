@@ -316,8 +316,6 @@ C:\Users\Angelo\Documents\CS 3rd Year Files\Academics\Application Development an
 C:\Users\Angelo\Documents\CS 3rd Year Files\Academics\Application Development and Emerging Technologies\New Repo\Awitify\obj\Debug\net9.0\compressed\ygmaqczr18-b9sayid5wm.gz
 C:\Users\Angelo\Documents\CS 3rd Year Files\Academics\Application Development and Emerging Technologies\New Repo\Awitify\obj\Debug\net9.0\compressed\za0d7ieyez-61n19gt1b8.gz
 C:\Users\Angelo\Documents\CS 3rd Year Files\Academics\Application Development and Emerging Technologies\New Repo\Awitify\obj\Debug\net9.0\compressed\z2q2kzeqzq-xtxxf3hu2r.gz
-C:\Users\Angelo\Documents\CS 3rd Year Files\Academics\Application Development and Emerging Technologies\New Repo\Awitify\obj\Debug\net9.0\compressed\vq2nrul6kt-sbp3dbxltu.gz
-C:\Users\Angelo\Documents\CS 3rd Year Files\Academics\Application Development and Emerging Technologies\New Repo\Awitify\obj\Debug\net9.0\compressed\uekzt3cqwj-sbp3dbxltu.gz
 C:\Users\Angelo\Documents\CS 3rd Year Files\Academics\Application Development and Emerging Technologies\New Repo\Awitify\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Angelo\Documents\CS 3rd Year Files\Academics\Application Development and Emerging Technologies\New Repo\Awitify\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\Angelo\Documents\CS 3rd Year Files\Academics\Application Development and Emerging Technologies\New Repo\Awitify\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -333,3 +331,5 @@ C:\Users\Angelo\Documents\CS 3rd Year Files\Academics\Application Development an
 C:\Users\Angelo\Documents\CS 3rd Year Files\Academics\Application Development and Emerging Technologies\New Repo\Awitify\obj\Debug\net9.0\KaraokeApp.pdb
 C:\Users\Angelo\Documents\CS 3rd Year Files\Academics\Application Development and Emerging Technologies\New Repo\Awitify\obj\Debug\net9.0\KaraokeApp.genruntimeconfig.cache
 C:\Users\Angelo\Documents\CS 3rd Year Files\Academics\Application Development and Emerging Technologies\New Repo\Awitify\obj\Debug\net9.0\ref\KaraokeApp.dll
+C:\Users\Angelo\Documents\CS 3rd Year Files\Academics\Application Development and Emerging Technologies\New Repo\Awitify\obj\Debug\net9.0\compressed\vq2nrul6kt-sbp3dbxltu.gz
+C:\Users\Angelo\Documents\CS 3rd Year Files\Academics\Application Development and Emerging Technologies\New Repo\Awitify\obj\Debug\net9.0\compressed\uekzt3cqwj-sbp3dbxltu.gz

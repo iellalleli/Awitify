@@ -16,7 +16,7 @@ namespace KaraokeApp.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private const string QUEUE_KEY = "VideoQueue";
-        private const string API_KEY = "AIzaSyCPqh9SBtoYRujMzTUxqKF6O0Bkw3Z9MGc";
+        private const string API_KEY = "AIzaSyBatiTvFUGqf-uTj5gp2DnfJtEeNCXBDeQ";
 
         public HomeController(ILogger<HomeController> logger)
         {
